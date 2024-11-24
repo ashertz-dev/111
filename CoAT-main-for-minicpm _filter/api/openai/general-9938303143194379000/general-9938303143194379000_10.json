@@ -1,0 +1,23 @@
+{
+    "screen_desc": "The screenshot shows a web page from \"denver.eater.com\" featuring a list of \"The 38 Essential Restaurants in Denver.\" The page includes a header with the website's logo and a navigation bar with options to share the article via social media. The main content provides an overview of the city's culinary community and highlights the growth and innovation of Denver's dining scene. There is also a button to view the list as a map and a note about the website's commission policy for links to external sites.",
+    "action_think": "The user is looking for a good restaurant in Denver. The screen shows an article with a list of essential restaurants in Denver. To help the user, I need to find the relevant part of the article that provides information on good restaurants in Denver.",
+    "action_plan": [
+        "Scroll up to find the section of the article that lists good restaurants in Denver.",
+        "Select the relevant section of the article to provide the user with the information they are looking for.",
+        "Stop",
+        "Stop"
+    ],
+    "action_desc": "Scroll up",
+    "action_result": "The execution of user request is stopped.",
+    "prev_action_result": "The user has clicked on the \"I Accept\" button, which means they have agreed to the privacy policies. This action is necessary to continue with the query as the website uses cookies and tracking technologies to improve the user's browsing experience. Now, the user can proceed with the query to find a good restaurant in Denver by using the search feature or scrolling through the list of essential restaurants.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows a mobile version of Amazon's website. The user is searching for the \"razer nari\" product, and a search bar with autocomplete suggestions is visible. Below the search bar, there are product listings for the LG 24GN600-B UltraGear Gaming Monitor and a MacBook Pro case. The screen also displays the shopping cart with two items, including the monitor, and provides options to delete or save the items for later.",
+    "action_think": "The user has already searched for 'razer nari' on Amazon and selected the first entry. The next step is to view the shopping cart and add the 'razer nari' product to it.",
+    "action_plan": [
+        "View the shopping cart",
+        "Add the 'razer nari' product to the shopping cart"
+    ],
+    "action_desc": "click on the shopping cart icon located at the top right of the screen.",
+    "action_result": "The last action was to click on the first search result for Razer Nari Essential Wireless 7.1 Surround Sound Gaming Headset. This action has decreased the number of items in the cart from 2 to 1, and the headset has been added to the cart.",
+    "prev_action_result": "The action of typing in \"razer nari\" into the search bar has advanced the user request. The search suggestions on the current screen show the user that the search term has been entered correctly. This is a step towards finding the razer nari product.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 10
+                }
+            }
+        }
+    }
+}

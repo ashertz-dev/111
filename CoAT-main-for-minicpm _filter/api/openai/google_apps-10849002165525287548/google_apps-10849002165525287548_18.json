@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows the \"Picture-in-picture\" settings for the Maps app. It allows the app to create a window in the foreground while the user is on another app, continuing to use Maps. The switch is currently off.",
+    "action_think": "The user wants to turn off the Picture-in-picture feature. The toggle switch for this feature is currently on, so the next action is to click on it to turn it off.",
+    "action_plan": [
+        "Turn off the Picture-in-picture feature"
+    ],
+    "action_desc": "click on the toggle switch of 'Allow picture-in-picture' located at the upper right.",
+    "action_result": "By clicking the back button, you have accessed the Picture-in-Picture settings for the Maps application, which is relevant for your request to turn off picture-in-picture. This action aligns with your goal to disable this feature for Maps. You have made progress towards completing your request.",
+    "prev_action_result": "The last action of clicking on the toggle switch of \"Allow picture-in-picture\" has successfully turned off the feature. This aligns with the user's request to turn off picture-in-picture.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 15
+                }
+            }
+        }
+    }
+}

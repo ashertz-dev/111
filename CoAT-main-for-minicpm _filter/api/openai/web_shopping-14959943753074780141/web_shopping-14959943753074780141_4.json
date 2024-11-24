@@ -1,0 +1,23 @@
+{
+    "screen_desc": "The screenshot shows the Amazon mobile website. The user is signed out and has the option to sign in. There is a search bar at the top, and several tabs including Deals, Amazon Basics, Best Sellers, Livestreams, and Video. The main content includes promotional deals for early Black Friday sales and sections for holiday gifts, Oculus, and Women's Fashion.",
+    "action_think": "The user wants to clear the shopping cart on Amazon, and then search for a specific product and add it to the cart. The user is currently on the Amazon website, which is the correct starting point for this task.",
+    "action_plan": [
+        "Clear the shopping cart",
+        "Search for Razer Thresher",
+        "Select the first entry",
+        "Add to cart"
+    ],
+    "action_desc": "click on the shopping cart icon at the top right corner.",
+    "action_result": "The action of clicking on the shopping cart icon has led to displaying the shopping cart page. This page is necessary to empty the cart, which is one step closer to completing the user request.",
+    "prev_action_result": "By pressing enter, I have opened the Amazon website. This action is necessary to complete the user request because it allows us to access the search bar and enter the query for the razer thresher.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 3
+                }
+            }
+        }
+    }
+}

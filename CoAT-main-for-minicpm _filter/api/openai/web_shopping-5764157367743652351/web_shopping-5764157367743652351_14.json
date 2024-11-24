@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screenshot displays a shopping page on a smartphone with two LG UltraGear monitors. The top monitor is priced at $299.99 and is a 32\" Class QHD Gaming Monitor. The bottom monitor is priced at $999.99 after a $600 off discount and is a 38\" Class WQHD IPS Curved Gaming Monitor. There are options to adjust the quantity and an \"Add\" button for each monitor.",
+    "action_think": "The user has added an LG UltraGear monitor to the shopping cart on Costco. Next, I should proceed to select the checkout option.",
+    "action_plan": [
+        "Select the checkout option on Costco"
+    ],
+    "action_desc": "click on the shopping cart icon located at the top right.",
+    "action_result": "By scrolling down, the user can view more products available on Costco. This action supports the user's request to add more items to the shopping cart, which is a necessary step before proceeding to checkout."
+}

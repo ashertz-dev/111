@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows a smartphone home screen with a Google search bar at the top displaying previous search queries. Below the search bar, there are shortcuts to popular apps such as Photos, YouTube, Play Store, YT Music, and Contacts. The time and status bar are visible at the top of the screen.",
+    "action_think": "I need to type 'new eyeliner' into the Google search bar and then search for it.",
+    "action_plan": [
+        "Type 'new eyeliner' into the Google search bar",
+        "Press the search button to execute the search"
+    ],
+    "action_desc": "Type 'new eyeliner'",
+    "action_result": "You have successfully typed in the query \"new eyeliner\". Now, the search results are displayed on the screen. You can browse through the suggestions and select the one that best matches your needs or enter a more specific search term if needed. This action has made progress towards your user request as you are now presented with a list of options related to new eyeliner.",
+    "prev_action_result": "By clicking on the Google Search Bar, I have opened the search bar where you can enter your query. This action helps to set up the search engine for your query, allowing you to find a new eyeliner.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "input",
+                "ARGS": {
+                    "text": "new eyeliner"
+                }
+            }
+        }
+    }
+}

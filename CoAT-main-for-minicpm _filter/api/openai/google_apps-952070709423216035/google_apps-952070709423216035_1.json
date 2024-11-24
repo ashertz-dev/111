@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot displays a Google search bar at the top with recent search suggestions including \"recent news,\" \"weather,\" \"rain this weekend,\" and \"espn.com.\" Below the search bar, there are quick access icons for Gmail, Instagram, YouTube, and Clock.",
+    "action_think": "The user has requested to open HBO Max, but there is no visible HBO Max app in the current screen. Possible actions include checking the app drawer for HBO Max, or performing a search for HBO Max to install it if it is not already on the device.",
+    "action_plan": [
+        "Check app drawer for HBO Max",
+        "Perform search for HBO Max"
+    ],
+    "action_desc": "Check app drawer for HBO Max",
+    "action_result": "By pressing the home button, you have moved to the home screen. To install the HBO Max app, you need to open the App Store. This is necessary because you will find HBO Max in the App Store."
+}

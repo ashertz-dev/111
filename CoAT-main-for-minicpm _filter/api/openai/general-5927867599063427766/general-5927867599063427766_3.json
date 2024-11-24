@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot shows a Google search results page with various suggestions related to \"new eyeliner\". The suggestions include different aspects of eyeliner such as trends, styles, and specific brands like Maybelline.",
+    "action_think": "The user has already searched for 'new eyeliner' and got suggestions. The next logical step is to click on one of the search suggestions to view more detailed information or perform a more specific search.",
+    "action_plan": [
+        "Click on one of the search suggestions to get more detailed information or perform a more specific search.",
+        "Continue to browse through the search results to find the best new eyeliner option for the user."
+    ],
+    "action_desc": "Click on 'new eyeliner trend'",
+    "action_result": "The user has successfully performed a search query for \"new eyeliner trend\" on the Google search engine. The direct consequence of this action is the display of a variety of eyeliner products from different brands, along with their prices and reviews. This suggests that the user is now ready to make a purchase decision based on the provided options."
+}

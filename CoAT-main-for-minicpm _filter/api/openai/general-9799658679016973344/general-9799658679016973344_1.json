@@ -1,0 +1,19 @@
+{
+    "screen_desc": "The screenshot shows a smartphone home screen with various app icons including Gmail, Photos, YouTube, and Google Chrome. There is also a Google search bar at the bottom. The date, \"Tue, Oct 11,\" is displayed at the top.",
+    "action_think": "The user wants to search for flights. The Google app on the home screen is the most logical place to start this task.",
+    "action_plan": [
+        "Tap on the Google app icon to open it"
+    ],
+    "action_desc": "Tap on the Google app icon",
+    "action_result": "By scrolling up, I have opened the app drawer, which contains the Google app that can be used to search for flights. This action has made progress towards the user request, because now the user can use the Google app to search for flights from NYC to San Diego.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 26
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows the \"Settings\" menu on a smartphone with various options listed, including Network & internet, Connected devices, Apps, Notifications, Battery, Storage, and Sound & vibration. The notification history appears to be visible.",
+    "action_think": "The user wants to open the AliExpress app, but it's not visible on the current list of settings options. Possible actions are to scroll up or down to look for more options or to exit settings and open the app from the app drawer or home screen.",
+    "action_plan": [
+        "Scroll up or down in the settings menu",
+        "Exit settings and open app drawer or home screen"
+    ],
+    "action_desc": "Scroll up",
+    "action_result": "By pressing the home button, I have moved back to the home screen. This is necessary because to install the user required app, we must first find the App store first.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

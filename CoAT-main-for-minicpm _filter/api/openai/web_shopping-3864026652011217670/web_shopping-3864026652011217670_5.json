@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot displays a Google search result for \"best rated phone case for the iPhone.\" The top search result is an advertisement for the iPhone 8 Best Case on Amazon, highlighting free 2-day shipping with Amazon Prime. Below the ad, there are links to \"Cases & Holsters,\" \"Cell Phone Deals,\" \"Cell Phones,\" and \"Accessories.\" Another advertisement is also visible for the 5 Best Toughest iPhone 8 Case 2022.",
+    "action_think": "The search has been performed and the results are displayed on the screen. The next step is to review the search results and select a suitable phone case.",
+    "action_plan": [
+        "Review the search results for the best rated phone cases for the iPhone 8.",
+        "Select a phone case that meets the user's preferences and budget."
+    ],
+    "action_desc": "Click on the first search result to view more information about the iPhone 8 Best Case on Amazon.",
+    "action_result": "The execution of user request is stopped."
+}

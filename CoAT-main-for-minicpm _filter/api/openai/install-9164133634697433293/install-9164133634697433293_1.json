@@ -1,0 +1,19 @@
+{
+    "screen_desc": "The screenshot shows the home screen of an Android smartphone with a grid layout of app icons. Notable apps include Google search, Messages, Adobe Acrobat, Cash App, Airtel, Booking.com, Chrome, Calendar, Camera, Contacts, Drive, DuckDuckGo, Duo, Expedia, Files, Flipkart, Gmail, and Google.",
+    "action_think": "The user wants to open 'Messenger Lite' and go to login. Since 'Messenger Lite' is not visible on the current screen, I need to install it first. After that, I will locate the login button and proceed with the forgot password option.",
+    "action_plan": [
+        "Install Messenger Lite",
+        "Find and select login button",
+        "Select forgot password"
+    ],
+    "action_desc": "Open Play Store",
+    "action_result": "The user requested to open the \"Messenger Lite\" app, now you are on the \"Play Store\" screen. The last action of clicking the \"Play Store\" app has taken you to the Home screen, which is the starting point to find the app. This action is necessary because it allows you to locate and install the \"Messenger Lite\" app if it's not already installed on the device. You can now proceed to search for the app, install it, and then log in.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "",
+                "ARGS": {}
+            }
+        }
+    }
+}

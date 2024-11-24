@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows the \"Picture-in-picture\" settings for the Maps application. The current version of the app is 10.16.7. The option \"Allow picture-in-picture\" is enabled, allowing the Maps app to create a picture-in-picture window while the app is open or after leaving it, for example, to continue watching a video.",
+    "action_think": "The user wants to turn off the picture-in-picture feature for the Maps app. I need to click on the 'Allow picture-in-picture' toggle switch to disable it.",
+    "action_plan": [
+        "click on the 'Allow picture-in-picture' toggle switch to turn it off.",
+        "click on the Maps 'Allow' switch to save the changes and exit this menu."
+    ],
+    "action_desc": "click on the 'Allow picture-in-picture' toggle switch located at the upper middle left.",
+    "action_result": "The last action of clicking on the toggle switch of \"Allow picture-in-picture\" has successfully turned off the feature. This aligns with the user's request to turn off picture-in-picture.",
+    "prev_action_result": "By clicking on the Maps \"Allow\" switch, the user has disabled the Picture-in-Picture feature for this application. This is necessary to complete the user request, because it has turned off the Picture-in-Picture functionality for Maps.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 12
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows a Google search results page for \"good restaurant in Denver.\" It displays sponsored listings, along with a link to \"The Best Restaurants in Denver in January 2022\" from OpenTable, suggesting the top results.",
+    "action_think": "The user wants to know about a good restaurant in Denver. The search results are showing sponsored listings and a link from OpenTable which might be the best choice to fulfill the user request. The next action should be clicking on the link from OpenTable to open the page with the list of recommended restaurants in Denver.",
+    "action_plan": [
+        "click on the OpenTable link to view the best restaurants in Denver. This will provide the user with a list of highly recommended restaurants in the city, suitable for the user's query.",
+        "Stop at the completion of the user request as the OpenTable link is likely to provide detailed information about various restaurants in the city, which is what the user is looking for."
+    ],
+    "action_desc": "click on the OpenTable link",
+    "action_result": "I have scrolled up to show you the full list of restaurants in Denver. This helps you to view all the available options, so you can select the one that best suits your preferences.",
+    "prev_action_result": "By clicking on the search suggestion, the user can now view the search results for \"good restaurant in Denver.\" This action helps to fulfill the user's request by providing information about restaurants in Denver.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 9
+                }
+            }
+        }
+    }
+}

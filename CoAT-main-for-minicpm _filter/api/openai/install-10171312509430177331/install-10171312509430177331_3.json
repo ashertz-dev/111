@@ -1,0 +1,21 @@
+{
+    "screen_desc": "This screenshot shows the Clock app on a smartphone with a dark theme. The time is displayed as 6:41, and the date is Thursday, August 18. There are two tabs at the top labeled \"Alarm\" and \"Clock,\" with \"Clock\" currently selected. A menu is open with options such as \"Screen saver,\" \"Settings,\" \"Send feedback,\" and \"Help.\" The bottom of the screen has a globe icon.",
+    "action_think": "The user wants to change the clock display to show seconds. The settings menu is open, but the specific option to change the display format is not visible.",
+    "action_plan": [
+        "Scroll up to view more settings options",
+        "Scroll down to find the display format settings"
+    ],
+    "action_desc": "scroll up",
+    "action_result": "The last action of clicking on the Settings has led to displaying the available settings for the Clock app. The user is now able to change the display time to include seconds, which was the user's request. This action has made progress towards completing the user request by allowing the user to adjust the clock display as desired.",
+    "prev_action_result": "By clicking on the settings icon, you can now access the options for customizing the clock display, which will allow you to change the display to show seconds. This will help in completing your request to change the clock display.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

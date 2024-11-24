@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot shows the homepage of the Best Buy website on a smartphone. It displays holiday deals, with a focus on finding great deals all season long. There are categories for shopping deals, including Laptops & Computers, TVs & Projectors, Apple, Video Games, Consoles & VR, Cell Phones, and Major Appliances. The shopping cart icon on the top right indicates there are 2 items in the cart.",
+    "action_think": "The shopping cart icon shows that there are items in the cart and the user needs to clear all items. The next step is to click on the shopping cart icon to view the cart and proceed with clearing the items.",
+    "action_plan": [
+        "click on the shopping cart icon to view the cart and proceed with clearing the items.",
+        "Clear the cart and show the empty cart message."
+    ],
+    "action_desc": "click on the shopping cart icon located at the upper right corner of the screen.",
+    "action_result": "By clicking on the cart icon, you have accessed the cart page where you can review and manage your items. This action allows you to remove any unwanted items from the cart, which is necessary to clear all items from the cart as requested."
+}

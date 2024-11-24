@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot displays a smartphone's home screen with a pink and purple gradient background. At the top, the date \"Tue, Oct 11\" is visible. There are eight app icons arranged in two rows, including the phone, messages, clock, and web browser. At the bottom, there's a Google search bar and a Google Assistant icon. The screen also shows the time \"5:48\" at the top left corner.",
+    "action_think": "The user wants to search for a new eyeliner. The Google search bar is available on the home screen, which is the appropriate place to perform the search for the requested product.",
+    "action_plan": [
+        "Use the Google search bar to type in 'new eyeliner'",
+        "Review search results to find a suitable eyeliner"
+    ],
+    "action_desc": "type 'new eyeliner' in the Google search bar",
+    "action_result": "By clicking on the Google Search Bar, I have opened the search bar where you can enter your query. This action helps to set up the search engine for your query, allowing you to find a new eyeliner.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "input",
+                "ARGS": {
+                    "text": "new eyeliner"
+                }
+            }
+        }
+    }
+}

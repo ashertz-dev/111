@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows the home screen of an Android smartphone. It features a pink gradient background with the date \"Monday, Aug 22\" displayed at the top. Below the date, there are two app icons: one for the Messages app and another for the Chrome browser. At the bottom, there is a Google search bar and a Google Assistant icon. The device is set to landscape orientation.",
+    "action_think": "To open the 'Paramount+' app, I need to locate and tap on the app's icon. Since it's not visible in the current screenshot, I will need to swipe up from the bottom of the screen to access the app drawer.",
+    "action_plan": [
+        "Swipe up from the bottom of the screen to access the app drawer",
+        "Locate and tap on the 'Paramount+' app"
+    ],
+    "action_desc": "Swipe up from the bottom of the screen",
+    "action_result": "By scrolling up, you have reached the home screen and can now locate the Google Play Store app. This is necessary to install the user required app \"Paramount+\" if it's not already installed on your device.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

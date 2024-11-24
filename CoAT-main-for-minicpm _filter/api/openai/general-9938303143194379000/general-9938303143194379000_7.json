@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot displays a map-based search result for \"Arapahoe County\" on a mobile phone. The top result is a sponsored ad for \"Arapahoe County - Plan Your Next Date Night - Perfect for Families,\" followed by a list of places with ratings and descriptions. The map shows various locations, and a marker indicates a specific spot. Below the map, there are detailed listings for tavernetta, sofia restaurant, and rioja, each with ratings, prices, and brief descriptions.",
+    "action_think": "The user has already searched for a good restaurant in Denver and found multiple places. The next step is to select a restaurant from the search results and provide more information or directions.",
+    "action_plan": [
+        "Select a restaurant from the search results",
+        "Provide more information or directions"
+    ],
+    "action_desc": "Click on the first search result (Tavernetta) to get more information about it.",
+    "action_result": "The user has scrolled up to view more information about the restaurants listed on the search results page. This action is likely to provide more details about the restaurants and potentially help the user make a decision about which one to visit. It is a step towards completing the user request.",
+    "prev_action_result": "Scrolling up has brought you to the first search result. It mentions a \"Great Local Restaurant - Denver Food Near You\" which may be a good option for a restaurant in Denver. This action has made progress towards your user request, as you are now exploring restaurants in the area.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": "Tavernetta"
+                }
+            }
+        }
+    }
+}

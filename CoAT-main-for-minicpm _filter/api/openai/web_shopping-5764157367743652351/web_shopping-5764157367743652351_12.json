@@ -1,0 +1,12 @@
+{
+    "screen_desc": "The screenshot shows a search result page on Costco's website for \"LG ultragear\" gaming monitors. There are two monitors listed, with the first one priced at $299.99 and the second one priced at $999.99 after a $600 discount. The page allows for sorting by Best Match and filtering options. Users can also add the monitors to their cart.",
+    "action_think": "The user wants to empty the shopping cart and add an LG Ultragear monitor to Costco's cart. I need to navigate to the cart page first and then select the desired item from the search results to add it to the cart.",
+    "action_plan": [
+        "Navigate to the Costco cart page",
+        "Scroll up to the top of the page",
+        "Click on the LG Ultragear monitor",
+        "Click on the 'Add' button next to the monitor price"
+    ],
+    "action_desc": "Navigate to the Costco cart page",
+    "action_result": "The user is now viewing a list of products on Costco's website, specifically searching for \"lg ultragear\". This is a step towards completing the user request, as the user needs to find and select the specific products to add to the cart."
+}

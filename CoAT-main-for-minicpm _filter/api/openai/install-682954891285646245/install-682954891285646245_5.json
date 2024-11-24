@@ -1,0 +1,22 @@
+{
+    "screen_desc": "The screenshot shows a mobile phone's app store search page. The screen displays a search bar with the text \"Search for apps & games,\" and below it, there are four apps displayed: \"doordash,\" \"facebook messenger,\" \"microsoft authenticator,\" and \"newsbreak.\" Each app has a refresh icon and a speaker icon for voice search.",
+    "action_think": "The user wants to open the 'Life360: Find Family & Friends' app, but it is not displayed on the screen. The search bar is visible, but it is empty. I need to type in the search term and then open the app from the search results.",
+    "action_plan": [
+        "Type in the search term 'Life360' in the search bar",
+        "Scroll through the search results to find the 'Life360: Find Family & Friends' app",
+        "Click on the app to open it"
+    ],
+    "action_desc": "Type in the search term 'Life360'",
+    "action_result": "The search bar has been clicked on, which has led to the display of search suggestions related to \"Life360: Find Family & Friends.\" This action has helped to narrow down the search results and is a step towards finding the desired app to be installed.",
+    "prev_action_result": "The action of typing \"Life360\" in the search bar has helped to refine your search results and possibly bring up the \"Life360: Find Family & Friends\" app. This step is crucial for finding the specific app you want to install.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "input",
+                "ARGS": {
+                    "text": "Life360"
+                }
+            }
+        }
+    }
+}

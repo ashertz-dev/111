@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows a smartphone's home screen with a grid of app icons. Notable apps include Google, Maps, Photos, Gmail, Play Store, and Authenticator. The clock widget is visible at the bottom center.",
+    "action_think": "The user wants to open and login to the Paramount+ app. Since the app is not visible on the current screen, I need to scroll up to reveal it on the home screen or open the app drawer to find it.",
+    "action_plan": [
+        "scroll up the screen to reveal more apps",
+        "search for the Paramount+ app if it is not on the home screen"
+    ],
+    "action_desc": "scroll up",
+    "action_result": "By clicking on the google Play Store app, we have returned to the home screen. This is the necessary step to find the app store and proceed with the installation of the requested app.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

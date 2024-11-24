@@ -1,0 +1,17 @@
+{
+    "screen_desc": "This is a smartphone home screen displaying the date and weather, with icons for YouTube, messages, photos, Chrome, and Gmail. There's a Google search bar at the bottom and a widget for weather information.",
+    "action_think": "The user wants to search for the best rated phone case for the iPhone 8. Since the phone is already on the home screen where the Google search bar is accessible, the next step is to tap on it to open the Chrome app where the search can be conducted.",
+    "action_plan": [
+        "Tap on the Google search bar to open the Chrome app"
+    ],
+    "action_desc": "Tap on the Google search bar",
+    "action_result": "The user has clicked on the Google Chrome app, which is the browser that the user will use to search for the best rated phone case for the iPhone 8. This action is necessary to complete the user request because the user needs to use a search engine to find the required information.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {}
+            }
+        }
+    }
+}

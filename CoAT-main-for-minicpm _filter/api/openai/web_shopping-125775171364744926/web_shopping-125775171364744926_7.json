@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot displays a page from an online shopping application, showing various products related to USB-C connectors and chargers. The currently selected product is the \"Scoche PowerVolt PD30 USB-C 30W Power Delivery Mini Fast Charger,\" priced at $27.99 after a $7 discount. The page also allows sorting by \"Best Match\" and filtering options to show out of stock items. Users can add the selected product to their cart using the \"Add\" button. Another product listed is the \"Belkin BOOST\u2191CHARGE USB-C to Lightning Connector Cable Kit.\"",
+    "action_think": "The user has already performed the actions to search for the desired product and select the first entry. The next step is to add the product to the cart.",
+    "action_plan": [
+        "Finish adding the product to the cart"
+    ],
+    "action_desc": "Click on the 'Add' button",
+    "action_result": "The execution of user request is stopped.",
+    "prev_action_result": "The last action you took was clicking the \"Add\" button, which has added the first entry \"Scoche PowerVolt PD30 USB-C 30W Power Delivery Mini Fast Charger, 2-pack\" to the shopping cart. This action has made progress towards your user request. You now have the item in your cart and you can continue to add more items or proceed to checkout.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 8
+                }
+            }
+        }
+    }
+}

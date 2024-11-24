@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screenshot shows a mobile version of a website promoting \"YOUR. PERFECT. HOME.\" with options to check availability, schedule a tour, view photos, and access prices/availability. There is a \"Welcome\" message at the bottom, and a prompt to add the app to the home screen.",
+    "action_think": "The user is interested in finding out the rent for a 2 bedroom apartment in Portland. Since the search result is relevant, I need to prepare the user to view the details of the advertised apartment.",
+    "action_plan": [
+        "Scroll down to view the details of the advertised apartment"
+    ],
+    "action_desc": "scroll down",
+    "action_result": "The execution of user request is stopped."
+}

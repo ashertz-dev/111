@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot displays a mobile web browser with a search bar at the top and a history of visited websites, including Walmart, eBay, and Target. Users can navigate to these sites or type a new web address in the search bar.",
+    "action_think": "The user wants to clear the cart on Costco.com. The browser should be opened first to access the website. Then, the user can navigate to Costco.com in the history or type it in the search bar.",
+    "action_plan": [
+        "Open the browser",
+        "Navigate to Costco.com"
+    ],
+    "action_desc": "click on the Google Chrome app located at the lower right.",
+    "action_result": "You have typed in \"costco\" in the search bar. This is the first step towards clearing the cart on costco.com. You can now proceed to visit the Costco website and clear your cart there."
+}

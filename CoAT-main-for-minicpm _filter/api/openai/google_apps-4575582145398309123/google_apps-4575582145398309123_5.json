@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot shows the installation page for the Firefox Fast & Private Browser on the Google Play Store. It displays the app's rating, reviews, and other details.",
+    "action_think": "The user wants to open the Firefox Browser app. I need to find the app from the list displayed on the screen and click on it.",
+    "action_plan": [
+        "Select the Firefox Browser app from the list",
+        "Open the app"
+    ],
+    "action_desc": "scroll up the screen to find the Firefox Browser app and click on it",
+    "action_result": "The execution of user request is stopped."
+}

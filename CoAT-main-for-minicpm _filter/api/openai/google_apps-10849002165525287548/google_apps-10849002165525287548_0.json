@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows a smartphone home screen with a pink background. The date is displayed at the top as Tuesday, July 26. Icons for Photos, Calendar, Maps, Clock, Settings, Gmail, Contacts, a messaging app, a web browser, and YouTube are visible. The Google search bar is at the bottom.",
+    "action_think": "The user wants to turn off picture-in-picture for all apps. To accomplish this, I need to open the Settings app and navigate to the Picture-in-Picture setting.",
+    "action_plan": [
+        "Open Settings app",
+        "Navigate to Picture-in-Picture setting",
+        "Enable Picture-in-Picture feature"
+    ],
+    "action_desc": "Tap on the Settings icon",
+    "action_result": "By clicking on the Settings icon, now you can access the settings menu. To turn off picture-in-picture, you would need to navigate to the display settings and then disable it from there. This will help you complete the user request by managing the picture-in-picture feature on your device.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 7
+                }
+            }
+        }
+    }
+}

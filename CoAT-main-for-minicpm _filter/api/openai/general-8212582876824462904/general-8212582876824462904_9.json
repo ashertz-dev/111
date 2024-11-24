@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screenshot shows a Google search result for \"what is the price of samsung tv.\" The search results include an advertisement for Walmart offering a new TV with 2 months of free Live TV and 3 movies for a limited time. There is also a link to Samsung's website for their latest OLED 4K Smart TV. The search bar at the top and the Google logo are visible, indicating this is a Google search page.",
+    "action_think": "The user has already searched for the price of a Samsung TV. The search results are displayed on the screen. The next step is to select the advertisement link from Walmart to view the price and other details.",
+    "action_plan": [
+        "Select the Walmart advertisement link to view more information about the Samsung TV"
+    ],
+    "action_desc": "click on the Walmart advertisement link",
+    "action_result": "The execution of user request is stopped."
+}

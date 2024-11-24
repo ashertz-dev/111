@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows a search results page for \"Life360\" on a smartphone. The page displays several search suggestions related to the app, including \"life360 locator free app,\" \"life360 find family and friends,\" \"life360 free app,\" and \"life360 family locator.\"",
+    "action_think": "The user has searched for 'Life360' and the app suggestions are displayed. The next step is to select the first search suggestion to either install or open the app directly if it's already installed.",
+    "action_plan": [
+        "Select the first search suggestion to either install or open the app directly if it's already installed"
+    ],
+    "action_desc": "click on the first search suggestion",
+    "action_result": "The user has successfully opened the \"Life360: Find Family & Friends\" app page. The next action is to install the app if it is not already installed. This action will fulfill the user's request to open or install the app.",
+    "prev_action_result": "The search bar has been clicked on, which has led to the display of search suggestions related to \"Life360: Find Family & Friends.\" This action has helped to narrow down the search results and is a step towards finding the desired app to be installed.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 1
+                }
+            }
+        }
+    }
+}

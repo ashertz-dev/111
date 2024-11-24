@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows the \"Life360: Find Family\" app page on a smartphone's app store. The app has a rating of 4.6 stars based on 1 million reviews, with over 100 million downloads. It is categorized under \"Everyone\" and contains ads and in-app purchases. Below the app's details, there's a section suggesting other apps like Microsoft OneDrive, Microsoft Outlook, SoundCloud, and others.",
+    "action_think": "I need to select the 'Install' button to complete the user request.",
+    "action_plan": [
+        "Select the 'Install' button to proceed with the installation of the app."
+    ],
+    "action_desc": "Select the 'Install' button.",
+    "action_result": "You have installed the \"Life360: Find Family & Friends\" app and the \"Install\" button turned into an \"Open\" button. This action has completed the user request.",
+    "prev_action_result": "The user has successfully opened the \"Life360: Find Family & Friends\" app page. The next action is to install the app if it is not already installed. This action will fulfill the user's request to open or install the app.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 10
+                }
+            }
+        }
+    }
+}

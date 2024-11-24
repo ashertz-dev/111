@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows a smartphone's home screen with a weather widget displaying Tuesday, October 11 and a temperature of 56\u00b0F. The screen features the Google search bar at the bottom, a digital clock in the top left corner, and various app icons, including Phone, Messages, and Google Chrome.",
+    "action_think": "The user wants to know the price of a Samsung TV. Since the current screen doesn't provide this information, I need to use the Google search bar at the bottom to look up the price.",
+    "action_plan": [
+        "Tap on the Google search bar",
+        "Type 'price of Samsung TV' into the search bar",
+        "Search for the price of the Samsung TV"
+    ],
+    "action_desc": "Tap on the Google search bar",
+    "action_result": "I have scrolled up to the home screen. This is necessary because we need to find the app where we can search for the price of the Samsung TV.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 10
+                }
+            }
+        }
+    }
+}

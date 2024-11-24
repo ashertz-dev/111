@@ -1,0 +1,24 @@
+{
+    "screen_desc": "This is a screenshot of the Google Play Store app, displaying a section titled \"Recommended for you\" with various game recommendations. The screen shows pre-registration games for upcoming releases and other popular games like Minecraft and Summoners War. There are tabs for \"For you,\" \"Top charts,\" \"Kids,\" \"Events,\" and other categories at the top.",
+    "action_think": "The user wants to open the HBO Max app, which is not currently installed. I need to guide the user through the process of installing the app, opening it, and entering the credentials.",
+    "action_plan": [
+        "Install HBO Max",
+        "Open HBO Max app",
+        "Enter user name",
+        "Enter password",
+        "Submit"
+    ],
+    "action_desc": "click on the search bar",
+    "action_result": "By clicking on the search bar, you have accessed the search function. This is a necessary step towards finding and installing the HBO Max app, as well as entering your user credentials. However, since the HBO Max app is not currently visible in the app store, you may need to scroll through the list to locate it or search for it directly.",
+    "prev_action_result": "By clicking on the menu icon, you went back to the main menu of the Google Play Store. This is necessary because to install the HBO Max: Stream TV & Movies app, you first need to find it in the App Store. This step helps you to complete your request for installation of the app.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 10
+                }
+            }
+        }
+    }
+}

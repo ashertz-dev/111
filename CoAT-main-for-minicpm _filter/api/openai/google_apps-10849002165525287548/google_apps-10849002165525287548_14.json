@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot shows the \"Picture-in-picture\" settings for Google Play services on a smartphone. The app version is displayed as 22.24.13. There is an option to allow picture-in-picture, which, when enabled, allows the app to continue displaying a video window on top of other apps when leaving the primary app. The switch is currently turned on.",
+    "action_think": "The user wants to turn off picture-in-picture for the Google Play services app. The current screen shows the settings for Google Play services, and the toggle switch for 'Allow picture-in-picture' is visible. The next action is to turn off the toggle switch to disable picture-in-picture for the app.",
+    "action_plan": [
+        "Turn off the toggle switch for 'Allow picture-in-picture' to disable picture-in-picture for the app, and then look for confirmation that picture-in-picture is disabled.",
+        "Verify that the switch is off to confirm the action and ensure that picture-in-picture is disabled for the app."
+    ],
+    "action_desc": "click on the toggle switch for 'Allow picture-in-picture' located at the right and upper part of the screen.",
+    "action_result": "I have turned off the picture-in-picture feature for Google Play services. This action should prevent the app from creating a picture-in-picture window when it's open. However, since the feature is off, there won't be any impact on the completion of your request."
+}

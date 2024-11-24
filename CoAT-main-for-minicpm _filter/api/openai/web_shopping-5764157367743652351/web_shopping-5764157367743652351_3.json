@@ -1,0 +1,13 @@
+{
+    "screen_desc": "The screenshot shows a mobile search result for \"Target\" on a smartphone. The screen includes a sponsored ad for the Target website, with options to learn more, call, or visit the location. Below the ad, there are three store locations listed with distances from the user's current location. Additionally, there are suggested searches and sections for \"Discover,\" \"Search,\" and \"Collections.\"",
+    "action_think": "The user wants to empty their Costco cart and then add a specific product to it. Costco is not visible in the current screen, so I need to navigate to the Costco website.",
+    "action_plan": [
+        "Open Costco website",
+        "Empty shopping cart",
+        "Search for LG Ultragear",
+        "Add LG Ultragear to cart",
+        "Select checkout"
+    ],
+    "action_desc": "Open Costco website",
+    "action_result": "By clicking on the search bar with the content \"target,\" you have cleared the query that was previously entered. You will now need to type in a new search query or select a different website to fulfill your request to empty the shopping cart on Costco and add LG UltraGear to the cart."
+}

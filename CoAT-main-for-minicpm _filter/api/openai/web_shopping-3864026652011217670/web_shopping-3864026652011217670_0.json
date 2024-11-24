@@ -1,0 +1,18 @@
+{
+    "screen_desc": "The screenshot shows the Google Drive app with a search bar at the top labeled \"Search in Drive.\" The main area of the screen displays a question mark in a document, indicating \"No items,\" suggesting that there are currently no files to search for. The bottom navigation bar includes options for Home, starred items, contacts, and files.",
+    "action_think": "The user wants to search for a phone case for iPhone 8, but the Google Drive app is currently empty. Therefore, I need to navigate to the search bar and input the search query.",
+    "action_plan": [
+        "input the search text",
+        "search for the best rated phone case for iPhone 8"
+    ],
+    "action_desc": "input the search text",
+    "action_result": "The action of pressing the home button has moved us back to the home screen. This is a necessary step towards completing the user request, as we need to locate the device settings or download the Google Play Store app to download the best rated phone case for the iPhone 8.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "input",
+                "ARGS": {}
+            }
+        }
+    }
+}

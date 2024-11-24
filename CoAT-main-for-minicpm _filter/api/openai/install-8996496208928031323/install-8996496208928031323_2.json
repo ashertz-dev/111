@@ -1,0 +1,10 @@
+{
+    "screen_desc": "This screenshot shows the home screen of a smartphone with a grid layout displaying various app icons, including Chrome, Calendar, Photos, and Settings. The Google search bar is at the top, and the time is displayed in the top left corner.",
+    "action_think": "The user wants to uninstall the 'DoorDash - Food Delivery' app. I need to find the app in the app drawer and then select it to initiate the uninstallation process.",
+    "action_plan": [
+        "Scroll up to find the app among the available apps",
+        "Select the app to open the app information page"
+    ],
+    "action_desc": "Scroll up",
+    "action_result": "Clicking on the Google Play Store app has taken us back to the home screen, where I can now find and uninstall \"DoorDash - Food Delivery\". This action is necessary to remove the app from the device."
+}

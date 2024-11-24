@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screenshot shows a mobile browser on Costco's website. The top of the screen displays the Costco logo, a search bar, and navigation options for \"Shop,\" \"Search,\" \"My Warehouse,\" \"Delivery Location,\" \"Warehouses,\" \"Account,\" and \"Cart.\" The main content is the Costco shopping cart, which is empty, and the user is prompted to \"Continue Shopping\" or \"Back to top.\" There is also an option to get email offers by entering an email address. Below the cart, there are links to \"About Us,\" \"Membership,\" \"Vendors & Suppliers,\" and \"Customer Service.\"",
+    "action_think": "The shopping cart is empty, so there's no need to clear it.",
+    "action_plan": [
+        "Stop"
+    ],
+    "action_desc": "Stop",
+    "action_result": "The execution of user request is stopped."
+}

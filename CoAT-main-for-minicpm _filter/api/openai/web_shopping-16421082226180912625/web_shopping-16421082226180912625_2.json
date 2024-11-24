@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot shows a mobile phone home screen with the Google search bar at the top. Below the search bar, there are shortcut icons for popular websites such as Facebook, YouTube, Amazon, Wikipedia, ESPN, Yahoo, eBay, Instagram, and a Discover section with a headline about Android app deletion. The bottom of the screen displays a news article snippet.",
+    "action_think": "To show the shopping cart on target, the first step is to open the Target app.",
+    "action_plan": [
+        "Open the Target app",
+        "Navigate to the shopping cart"
+    ],
+    "action_desc": "click on the Target app icon located at the top right corner.",
+    "action_result": "You have clicked on the search bar, which is located at the upper-middle part of the screen. This action will bring up the virtual keyboard and allow you to type in your query. You can now enter \"Target shopping cart\" into the search bar to find information about the shopping cart on Target's website. This step is necessary to progress towards your request of showing the shopping cart on Target."
+}

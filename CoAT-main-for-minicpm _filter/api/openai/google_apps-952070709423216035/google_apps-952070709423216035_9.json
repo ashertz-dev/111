@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot displays the HBO Max streaming app page from the Google Play Store. It features the app's logo, rating, number of downloads, and a prominent \"Install\" button. Below, there are promotional images of the app's content.",
+    "action_think": "The user needs to install HBO Max if it's not already installed and then enter their user name and password.",
+    "action_plan": [
+        "Install HBO Max if necessary.",
+        "Enter user name and password."
+    ],
+    "action_desc": "click on the 'Install' button if it's not installed.",
+    "action_result": "By clicking on the \"Install\" button, the app will be automatically installed on your device if it is not already installed. This step is necessary because the user wants to open the HBO Max app and needs it to be installed first."
+}

@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot displays a Google search interface with a search bar at the top labeled \"Search apps, we...\". Below the search bar, there are search suggestions including \"d snap food stamps\", \"ewan mitchell aemon targaryen\", \"art laboe radio station\", and \"interest rates mortgages\". At the bottom, there are several app icons including Gmail, YouTube, the Google app, and a clock.",
+    "action_think": "The user is looking for information about the president of the United States. To find this information, I need to perform a web search using the Google search bar.",
+    "action_plan": [
+        "Type 'president of the United States' into the search bar",
+        "Press the search button to execute the query"
+    ],
+    "action_desc": "click on the search bar located at the top center",
+    "action_result": "You have typed in the content \"president of the United States\" on the search bar. This action will allow you to search for information about the president of the United States, which is relevant to your request."
+}

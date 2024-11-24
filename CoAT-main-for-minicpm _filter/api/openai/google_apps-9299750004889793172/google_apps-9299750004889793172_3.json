@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot displays the Google Maps application on a smartphone. The top of the screen shows a search bar for entering locations or points of interest. Below the search bar, there is a zoomable map of Mountain View, California. At the bottom, there are several icons representing different categories such as restaurants, gas stations, groceries, coffee, takeout, and pharmacies. Additionally, there are tabs for exploring various categories like Indian food, outdoor activities, and transit options.",
+    "action_think": "The user wants to search for Mexican restaurants on the Maps app. The search bar is already visible on the screen, so the next step is to enter the search term 'Mexican restaurants' into the search bar.",
+    "action_plan": [
+        "Enter the term 'Mexican restaurants' into the search bar",
+        "Press enter or search button to initiate the search"
+    ],
+    "action_desc": "Enter the term 'Mexican restaurants' into the search bar",
+    "action_result": "The last action of clicking on the search bar has allowed you to enter your query into the input area. This is a necessary step to complete your request, as it enables you to search for Mexican restaurants on Maps."
+}

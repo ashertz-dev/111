@@ -1,0 +1,24 @@
+{
+    "screen_desc": "The screenshot is from the eBay mobile website, showing the shopping cart page. It indicates that the user does not have any items in their cart and prompts them to sign in or start shopping. There's a notification about a removed item from the cart, and a menu bar at the bottom with options for Home, Sign in/ Register, Sell an item, and Help & Contact.",
+    "action_think": "The user wants to empty their cart and add a specific item to the cart. The shopping cart is empty, so the next step is to click the Start shopping button to open the search or product page.",
+    "action_plan": [
+        "Click on the Start shopping button to proceed with the request.",
+        "Search for 'macbook pro' on the eBay website.",
+        "Add 'macbook pro' to the shopping cart.",
+        "Select the shopping cart to view the items.",
+        "Click the checkout button to complete the purchase."
+    ],
+    "action_desc": "Click on the Start shopping button to proceed with the request.",
+    "action_result": "You have clicked on the search bar, which has set up the search input field for you to enter your query. This is a necessary step towards adding \"macbook pro\" to your cart, as you will need to search for the item on eBay before proceeding to the checkout.",
+    "prev_action_result": "The Add to cart button was clicked on the middle right side of the screen. This action has added the \"macbook pro\" item to the shopping cart.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 17
+                }
+            }
+        }
+    }
+}

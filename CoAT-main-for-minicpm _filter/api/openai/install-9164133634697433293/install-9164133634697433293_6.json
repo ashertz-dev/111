@@ -1,0 +1,11 @@
+{
+    "screen_desc": "The screenshot shows the Google Play Store page for \"Messenger Lite\" by Meta Platforms, Inc. It displays the app's rating, download count, and features, along with a description indicating it's a faster version suitable for all network conditions. Below, there are recommendations for similar apps such as Microsoft OneDrive, Microsoft Teams, Signal Private Messenger, and Message.",
+    "action_think": "The user wants to open the app and select 'forgot password'. However, the app is not installed yet. The user needs to first install the app, then log in, and finally select 'forgot password'.",
+    "action_plan": [
+        "Install the app",
+        "Login",
+        "Select forgot password"
+    ],
+    "action_desc": "Install the app",
+    "action_result": "By clicking on the \"Install\" button, the app \"Messenger Lite\" has been successfully installed. The next step is to open the app, which can be done by tapping on the \"Open\" button located at the top right. Once the app is opened, the user can proceed to login. If the app is not already installed, the user will be prompted to install it. After the app is installed, the user can select \"forgot password\" to reset their password. This action has made progress towards the user request."
+}

@@ -1,0 +1,12 @@
+{
+    "screen_desc": "The screenshot displays a smartphone home screen with a black wallpaper featuring blue and white colors. The screen shows icons for Gmail, Photos, YouTube, Phone, Messages, Chrome, and the Play Store. The Google search bar is at the bottom.",
+    "action_think": "The user wants to empty the shopping cart on Costco and add LG Ultragear to the cart. To further assist the user, I should navigate to the Costco website and perform the required actions.",
+    "action_plan": [
+        "Navigate to Costco website",
+        "Empty shopping cart",
+        "Add LG Ultragear to cart",
+        "Select checkout"
+    ],
+    "action_desc": "Click on the Chrome browser icon",
+    "action_result": "By scrolling up, I have opened the app drawer. This is necessary because to access the shopping cart on Costco, we must first open the Costco app."
+}

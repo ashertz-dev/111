@@ -1,0 +1,22 @@
+{
+    "screen_desc": "This screen is from the Walmart mobile website, showing the cart page with 2 items. The items are a Razer Blade 15 Base 15.6\" Gaming Laptop and a Walmart Protection Plan. There is an option to add the plan and expert help, and the total price is $2,021.97. The estimated shipping date is Wednesday, November 9.",
+    "action_think": "The user wants to clear all items from their cart and add a Macbook Air to it. I need to perform actions to clear the cart and add a new item.",
+    "action_plan": [
+        "clear all items from the cart",
+        "search for a Macbook Air on the Walmart website",
+        "add a Macbook Air to the cart"
+    ],
+    "action_desc": "click on the shopping cart icon located at the top-right.",
+    "action_result": "By scrolling up, you have viewed the items in the cart. Now, you can add a new item, like the Macbook Air, to the cart. This action helps in completing the user request by adding a new item to their shopping cart.",
+    "prev_action_result": "The user has removed the Bluetooth speakers from the cart, reducing the number of items in the cart from 3 to 2. However, the user request was to clear all items from the cart and add a specific item (Macbook Air) to the cart. Removing the Bluetooth speakers is a step towards completing the request, but it is not the final step. The user still needs to navigate to the Macbook Air product page, add it to the cart, and then proceed to checkout.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 64
+                }
+            }
+        }
+    }
+}

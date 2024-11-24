@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows the \"Set up email\" screen with options to set up email accounts using Google, Outlook, Yahoo, Exchange, and Office 365.",
+    "action_think": "The user wants to open the Upside-Cash back on gas & food app and go to the login screen. However, the current screen shows the email setup options, so the app is not visible. The next step should be to open the app drawer to find and open the app.",
+    "action_plan": [
+        "Open app drawer",
+        "Find and open Upside-Cash back on gas & food app"
+    ],
+    "action_desc": "Open app drawer",
+    "action_result": "The last action of pressing the home button has taken you back to the home screen. This is important because to install the user's required app, we need to find the App Store first. This action has helped you navigate back to the home screen where you can locate the App Store to proceed with the installation of \"Upside-Cash back on gas & food\". This action has made progress towards the user request.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

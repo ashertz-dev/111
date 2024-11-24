@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screenshot shows the Costco website on a smartphone, with a navigation bar at the top, a search bar, and a cart icon. The page displays promotional ads for Samsung TVs and vacuum cleaners, as well as sections for guest readiness, smart home deals, and toy offers.",
+    "action_think": "The user wants to clear the cart on Costco.com. The cart icon is visible on the screen, indicating the location to act on.",
+    "action_plan": [
+        "click on the cart icon to open the cart page where the user can clear the cart."
+    ],
+    "action_desc": "click on the cart icon",
+    "action_result": "The cart icon at the top right has been clicked, which will take you to the cart page where you can manage and clear the cart if necessary. This action is a step towards clearing the cart on costco.com, as it provides access to the cart page."
+}

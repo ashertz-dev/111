@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screenshot displays the Southwest Airlines mobile app, with options to book a flight, check in, view flight status, and earn points through a credit card. There's also a travel advisory notification and links to special offers and manage trips.",
+    "action_think": "The user has already searched for flights and now may want to book a flight. The next logical step is to check the flight status screen.",
+    "action_plan": [
+        "Click on the 'FLIGHT STATUS' option to view the status of the searched flights"
+    ],
+    "action_desc": "click on the 'FLIGHT STATUS' option",
+    "action_result": "The execution of user request is stopped."
+}

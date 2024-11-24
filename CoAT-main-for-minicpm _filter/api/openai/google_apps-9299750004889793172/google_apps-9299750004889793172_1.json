@@ -1,0 +1,19 @@
+{
+    "screen_desc": "This screenshot shows the home screen of a smartphone, displaying various app icons including Clock, Gmail, Settings, Google, YouTube, Camera, Chrome, Drive, Maps, Messages, Phone, Photos, Play Movies & TV, Play Music, Play Store, and YouTube. The screen has a search bar at the top and a grid layout of app icons. The phone's status bar is visible at the top, indicating the time, battery level, and connectivity status.",
+    "action_think": "The user wants to find Mexican restaurants on Maps. The Maps app is visible on the home screen.",
+    "action_plan": [
+        "Tap on the Maps app icon"
+    ],
+    "action_desc": "Tap on the Maps app icon",
+    "action_result": "The Maps app has been opened, as indicated by the Maps icon at the bottom left of the screen. This action helps to progress towards the user request of searching for Mexican restaurants, because the Maps app provides a platform to find locations, including restaurants.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 6
+                }
+            }
+        }
+    }
+}

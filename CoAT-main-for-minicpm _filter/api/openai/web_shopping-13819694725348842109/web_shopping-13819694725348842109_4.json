@@ -1,0 +1,14 @@
+{
+    "screen_desc": "The screenshot shows the eBay mobile website. At the top, there is a search bar and options for \"Electronics\" and \"Clothing & Accessories.\" The main section displays recently viewed items, including a keyboard priced at $34.63 with a 10% discount. Below this, there is an advertisement for AKG wireless headphones priced at $79.95, down from $349.99. At the bottom, there is a prompt to get the eBay app for a faster and easier experience.",
+    "action_think": "The user wants to empty the shopping cart on eBay, search for a product, and add it to the cart. The current screen shows the eBay mobile website with recently viewed items and an advertisement. The next action should be to click on the shopping cart icon to access the cart and proceed with the request.",
+    "action_plan": [
+        "Click on the shopping cart icon to access the cart.",
+        "Select the option to empty the cart.",
+        "Search for 'macbook pro' on eBay.",
+        "Add the first search result for 'macbook pro' to the cart.",
+        "Click on the cart icon to view the cart contents.",
+        "Click on the checkout button to start the checkout process."
+    ],
+    "action_desc": "Click on the shopping cart icon to access the cart.",
+    "action_result": "The action of clicking on the shopping cart icon has taken you to the shopping cart page on eBay. This is a necessary step before you can complete the user request to empty the shopping cart."
+}

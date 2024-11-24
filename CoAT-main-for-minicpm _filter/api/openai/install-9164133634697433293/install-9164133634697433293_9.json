@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screen is prompting the user to log in with their phone number or Facebook account. Below the login prompt, there are options to open links with Chrome and DuckDuckGo.",
+    "action_think": "The user has already installed and opened the Messenger Lite app. The next step is to go to the login screen by tapping on the 'FORGOT PASSWORD?' link.",
+    "action_plan": [
+        "Tap on the 'FORGOT PASSWORD?' link to go to the login screen"
+    ],
+    "action_desc": "tap on the 'FORGOT PASSWORD?' located at the bottom right.",
+    "action_result": "The execution of user request is stopped."
+}

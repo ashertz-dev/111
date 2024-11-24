@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows a smartphone home screen with a pink wallpaper. There are three app icons at the top, labeled \"Grab,\" \"PlayWell,\" and \"Firefox.\" Below, there are several app icons including a phone, messages, a Google Play Store app, a Chrome browser, and a Firefox browser. At the bottom, there's a Google search bar and a microphone icon for voice search.",
+    "action_think": "The user wants to open the Paramount+ app. The app is not visible on the current screen. Therefore, I need to access the app drawer to find and open the Paramount+ app.",
+    "action_plan": [
+        "Open the app drawer",
+        "Search for the Paramount+ app",
+        "Select the Paramount+ app to open"
+    ],
+    "action_desc": "Open the app drawer",
+    "action_result": "By clicking on the \"Play Store\" app, you have navigated back to the home screen. This action is necessary because you must first find the Play Store to install the required app.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "down"
+                }
+            }
+        }
+    }
+}

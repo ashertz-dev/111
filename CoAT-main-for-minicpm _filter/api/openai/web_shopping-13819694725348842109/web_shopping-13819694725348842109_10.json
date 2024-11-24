@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot shows a product listing for an Apple MacBook Pro on eBay. The product details include specifications like a 15\" Retina display, 1TB SSD, 16GB RAM, 3.40GHz processor, and a 3-year warranty. The seller has a 99.5% positive feedback rating.",
+    "action_think": "The user has already added a MacBook Pro to the shopping cart, and the cart is empty. Next, I need to click on the 'Add to Cart' button to complete the request and then click on the checkout icon to proceed with the purchase.",
+    "action_plan": [
+        "click on the 'Add to Cart' button",
+        "click on the checkout icon"
+    ],
+    "action_desc": "click on the 'Add to Cart' button",
+    "action_result": "Scrolling up has taken you to the product page of an Apple MacBook Pro. This is a good start towards adding the macbook pro to your shopping cart, but it's not yet complete. You will need to add the macbook pro to your cart before you can proceed to checkout."
+}

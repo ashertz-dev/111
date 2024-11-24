@@ -1,0 +1,17 @@
+{
+    "screen_desc": "The screenshot shows a smartphone home screen with a pink background. The time displays as 10:51, and the date is Monday, October 10. The screen includes icons for Maps, a folder, messages, Chrome, and the Play Store, along with the Google search bar at the bottom. The home screen also features the status bar with various icons and notifications.",
+    "action_think": "The user is looking for information about the president of the United States. The relevant information can be found through the Google search bar at the bottom of the home screen.",
+    "action_plan": [
+        "Use the Google search bar to search for 'president of the United States'"
+    ],
+    "action_desc": "Tap on the Google search bar at the bottom of the home screen",
+    "action_result": "You clicked on the Google Search Bar. This action will allow you to enter your query into the search engine. It helps to complete your request because you can now use the search bar to find information about the president of the United States.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {}
+            }
+        }
+    }
+}

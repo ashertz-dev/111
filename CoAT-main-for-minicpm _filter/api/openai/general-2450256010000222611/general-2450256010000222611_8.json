@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows the Google Play Store app on a smartphone. At the top, there's a search bar, and below it, tabs for \"For you,\" \"Top charts,\" and \"Other devices\" are visible. There's also a promotional banner for HBO Max. Below the banner, three apps are suggested for the user: Snapp, Calm, and Trip.com. Further down, there's a section titled \"Recommended for you\" with three featured apps.",
+    "action_think": "The user needs to check the settings for the Google Play Store app. Since the app is already open, the next step is to navigate to the settings within the app.",
+    "action_plan": [
+        "Tap on the 'Apps' icon in the lower navigation bar to open the app settings"
+    ],
+    "action_desc": "Tap on the 'Apps' icon located at the bottom navigation bar",
+    "action_result": "By clicking on the user account avatar/icon, you can access a list of options related to your Google account and the Google Play Store. This action brings up the Google Play Store settings menu, which is necessary to adjust settings for the Google Play Store app, such as account information, notifications, and other preferences. This action is a step towards completing your user request.",
+    "prev_action_result": "The last action of clicking on the \"Apps\" icon brought you to the Google Play Store home page, where you can check the settings for the app. This action has made progress towards completing the user request as it now allows you to access the settings of the Google Play Store app.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 50
+                }
+            }
+        }
+    }
+}

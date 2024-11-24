@@ -1,0 +1,11 @@
+{
+    "screen_desc": "The screenshot shows the installation process of the Paramount+ Peak Streaming app on a smartphone. The app has 3.9 stars based on 228K reviews and has been downloaded 10 million times. The app is recommended for users interested in streaming movies and TV shows.",
+    "action_think": "The app is currently installing, so we need to wait until the installation is complete before proceeding to the next step.",
+    "action_plan": [
+        "Wait for the installation to complete.",
+        "Once installed, click on the app icon to open it.",
+        "Click on the login button to navigate to the login screen."
+    ],
+    "action_desc": "Wait for the installation to complete.",
+    "action_result": "The execution of user request is stopped."
+}

@@ -1,0 +1,13 @@
+{
+    "screen_desc": "The screenshot shows the Google search page on a smartphone. The search bar at the top displays the word \"Search\" and there are related search suggestions below it. The search bar is ready for input, and the screen is showing the Google search results with various store names and their icons listed.",
+    "action_think": "The user needs to search for LG Ultragear on Costco's website. First, I need to navigate to Costco's website by clicking on the Costco's icon in the suggested search results. Then, I will click on the search bar to input the product name and search for it. After that, I will click on the product and add it to the cart. Finally, I will click on the checkout button to complete the purchase.",
+    "action_plan": [
+        "click on Costco's icon in the suggested search results",
+        "click on the search bar to input LG Ultragear",
+        "click on the search icon",
+        "click on the LG Ultragear product to add it to the cart",
+        "click on the checkout button"
+    ],
+    "action_desc": "click on Costco's icon in the suggested search results",
+    "action_result": "By typing in the content \"costco\" in the search bar, the search results for Costco have been displayed, which is a step towards finding the cheapest chair at Costco."
+}

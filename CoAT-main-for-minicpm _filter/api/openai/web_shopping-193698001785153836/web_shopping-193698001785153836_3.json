@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screenshot shows the homepage of the Newegg website on a smartphone. The top of the screen displays the Newegg logo and options for search, cart, and user account. Below that is a banner advertising discounts on gaming furniture, 3D printers, and more. The main section displays today's best deals with various products like graphics cards, hard drives, and laptops, and there are options for orders, wish list, and categories. The bottom of the screen features an image of a graphics card.",
+    "action_think": "The user wants to see the shopping cart on Newegg. The shopping cart icon is located at the top-right corner of the screen.",
+    "action_plan": [
+        "Click on the shopping cart icon to open the shopping cart page"
+    ],
+    "action_desc": "click on the shopping cart icon located at the top-right corner of the screen.",
+    "action_result": "By clicking on the shopping cart icon, you have accessed your shopping cart on Newegg. This allows you to review and manage the items you have added to your cart."
+}

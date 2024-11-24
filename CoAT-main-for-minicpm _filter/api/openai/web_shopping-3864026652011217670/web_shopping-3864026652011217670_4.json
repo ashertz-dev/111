@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows a search bar with the query \"best rated phone case for the iPhone 8\" and two suggested search terms: \"8 plus\" and \"8 plus waterproof.\" The screen is likely from a shopping or search application, and the user can select one of the suggested search terms to refine their query.",
+    "action_think": "The user has already typed in the query and two suggested search terms are displayed. The next step is to select one of the suggested search terms to refine the search result.",
+    "action_plan": [
+        "Select one of the suggested search terms to refine the search"
+    ],
+    "action_desc": "click on the search term '8 plus' located at the top-middle of the screen.",
+    "action_result": "The user has successfully completed their search query by clicking on the first search suggestion. This action has moved them to a page that shows results for the best-rated phone cases for the iPhone 8. The user can now browse through the options to find the best case for their needs.",
+    "prev_action_result": "The action of typing in the content \"best rated phone case for the iPhone 8\" has led to the search bar being populated with the query. This action is directly contributing to the user's request to find the best rated phone case for the iPhone 8, as the search results are now based on the user's input.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 2
+                }
+            }
+        }
+    }
+}

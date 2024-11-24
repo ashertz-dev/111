@@ -1,0 +1,3975 @@
+[
+    {
+        "subset": "general",
+        "episode_id": "8212582876824462904",
+        "step_id": 0,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8212582876824462904",
+        "step_id": 3,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8212582876824462904",
+        "step_id": 4,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8212582876824462904",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                260,
+                1090,
+                275,
+                1118
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8212582876824462904",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "press",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8212582876824462904",
+        "step_id": 7,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "What's the price of the Samsung TV?"
+        },
+        "pred": {
+            "action_type": "type",
+            "action_detail": "What's the price of the Samsung TV?"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": 1.0,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8212582876824462904",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                90,
+                61,
+                446,
+                86
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9309131248275489831",
+        "step_id": 0,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                457,
+                862,
+                481,
+                910
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9309131248275489831",
+        "step_id": 1,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "2 bedroom apartment rent for in Portland"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9309131248275489831",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1359994677477286277",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1359994677477286277",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1359994677477286277",
+        "step_id": 4,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "spotify"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1359994677477286277",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                49,
+                28,
+                88,
+                44
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1359994677477286277",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                206,
+                25,
+                215,
+                41
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1359994677477286277",
+        "step_id": 7,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8176444828643152618",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8176444828643152618",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8176444828643152618",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                91,
+                674,
+                109,
+                706
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8176444828643152618",
+        "step_id": 4,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "enter"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9938303143194379000",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "press",
+            "action_detail": "back"
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9938303143194379000",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": null,
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": false
+    },
+    {
+        "subset": "general",
+        "episode_id": "9938303143194379000",
+        "step_id": 4,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9938303143194379000",
+        "step_id": 5,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9938303143194379000",
+        "step_id": 7,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9938303143194379000",
+        "step_id": 9,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                140,
+                140,
+                245,
+                152
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9938303143194379000",
+        "step_id": 10,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "7784556902850337380",
+        "step_id": 5,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "7784556902850337380",
+        "step_id": 6,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1365057080660724073",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1365057080660724073",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1365057080660724073",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "stop",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1365057080660724073",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                108,
+                73,
+                262,
+                90
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "1365057080660724073",
+        "step_id": 9,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9043187963130600085",
+        "step_id": 6,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8353462066287083850",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8353462066287083850",
+        "step_id": 1,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8353462066287083850",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8353462066287083850",
+        "step_id": 4,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                186,
+                206,
+                367,
+                224
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8353462066287083850",
+        "step_id": 5,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "2450256010000222611",
+        "step_id": 0,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "2450256010000222611",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                72,
+                1317,
+                104,
+                1372
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "2450256010000222611",
+        "step_id": 2,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "2450256010000222611",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "2450256010000222611",
+        "step_id": 4,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "back"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "2450256010000222611",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                609,
+                931,
+                643,
+                997
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "2450256010000222611",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                233,
+                1384,
+                305,
+                1413
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "2450256010000222611",
+        "step_id": 9,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                154,
+                1149,
+                269,
+                1178
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9968592088971365655",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9968592088971365655",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9968592088971365655",
+        "step_id": 3,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "Play the latest video from the BBC"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9968592088971365655",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": null,
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": false
+    },
+    {
+        "subset": "general",
+        "episode_id": "9968592088971365655",
+        "step_id": 9,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                97,
+                816,
+                321,
+                843
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "5927867599063427766",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "5927867599063427766",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "type",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "5927867599063427766",
+        "step_id": 2,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "new eyeliner"
+        },
+        "pred": {
+            "action_type": "type",
+            "action_detail": "new eyeliner"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": 1.0,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "5927867599063427766",
+        "step_id": 4,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9799658679016973344",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9799658679016973344",
+        "step_id": 1,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9799658679016973344",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                210,
+                229,
+                241,
+                237
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9799658679016973344",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "9799658679016973344",
+        "step_id": 7,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8107383055418434144",
+        "step_id": 0,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                222,
+                488,
+                234,
+                515
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8107383055418434144",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                210,
+                155,
+                246,
+                160
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "general",
+        "episode_id": "8107383055418434144",
+        "step_id": 2,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "news in Thailand?"
+        },
+        "pred": {
+            "action_type": "type",
+            "action_detail": "news in Thailand"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": 0.9696969696969697,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "4575582145398309123",
+        "step_id": 0,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "4575582145398309123",
+        "step_id": 3,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "Firefox browser"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "6011928736074602844",
+        "step_id": 0,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "6011928736074602844",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                49,
+                713,
+                80,
+                720
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "6011928736074602844",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "6011928736074602844",
+        "step_id": 4,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                21,
+                317,
+                93,
+                324
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "6011928736074602844",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "6011928736074602844",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                130,
+                714,
+                173,
+                723
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "6011928736074602844",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 0,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                115,
+                449,
+                139,
+                456
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 4,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                55,
+                500,
+                158,
+                509
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 7,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                54,
+                234,
+                184,
+                248
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 9,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                189,
+                239,
+                193,
+                246
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 11,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                189,
+                239,
+                193,
+                246
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 13,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                18,
+                139,
+                28,
+                158
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 17,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                362,
+                252,
+                390,
+                261
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "10849002165525287548",
+        "step_id": 18,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                129,
+                268,
+                150,
+                277
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "952070709423216035",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                15,
+                85,
+                117,
+                95
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "952070709423216035",
+        "step_id": 6,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "HBO Max: Stream TV & Movies "
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "952070709423216035",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                43,
+                28,
+                105,
+                35
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "952070709423216035",
+        "step_id": 12,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "9299750004889793172",
+        "step_id": 0,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "9299750004889793172",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                119,
+                127,
+                137,
+                132
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "9299750004889793172",
+        "step_id": 6,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "985503466327824105",
+        "step_id": 0,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "985503466327824105",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "985503466327824105",
+        "step_id": 4,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": null,
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": false
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "9582275896553451202",
+        "step_id": 1,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "9582275896553451202",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": null,
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": false
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "9582275896553451202",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                280,
+                609,
+                352,
+                626
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "google_apps",
+        "episode_id": "9582275896553451202",
+        "step_id": 7,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "9164133634697433293",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": null,
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": false
+    },
+    {
+        "subset": "install",
+        "episode_id": "9164133634697433293",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "9164133634697433293",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                117,
+                172,
+                221,
+                191
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "9164133634697433293",
+        "step_id": 7,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                92,
+                420,
+                184,
+                519
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "8996496208928031323",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "8996496208928031323",
+        "step_id": 4,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "DoorDash - Food Delivery"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "8996496208928031323",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "682954891285646245",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "back"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "682954891285646245",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "682954891285646245",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "type",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "682954891285646245",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                109,
+                67,
+                180,
+                85
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "682954891285646245",
+        "step_id": 7,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                426,
+                178,
+                477,
+                193
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "682954891285646245",
+        "step_id": 9,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "9189344988061956495",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "9189344988061956495",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "9189344988061956495",
+        "step_id": 10,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "9189344988061956495",
+        "step_id": 11,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                661,
+                65,
+                680,
+                105
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "588884335184124350",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": null,
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": false
+    },
+    {
+        "subset": "install",
+        "episode_id": "588884335184124350",
+        "step_id": 3,
+        "answer": {
+            "action_type": null,
+            "action_detail": null
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "588884335184124350",
+        "step_id": 5,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "vlc"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "588884335184124350",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                109,
+                68,
+                140,
+                87
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "588884335184124350",
+        "step_id": 7,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "8781729660387063293",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "8781729660387063293",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "8781729660387063293",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                31,
+                916,
+                224,
+                934
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "8781729660387063293",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                91,
+                54,
+                416,
+                81
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "12953443805108929757",
+        "step_id": 0,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "12953443805108929757",
+        "step_id": 5,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "10171312509430177331",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                140,
+                561,
+                194,
+                573
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "10171312509430177331",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "10171312509430177331",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "11288269998041996603",
+        "step_id": 3,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "flipkart"
+        },
+        "pred": {
+            "action_type": "type",
+            "action_detail": ""
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": 0.0,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "11288269998041996603",
+        "step_id": 6,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15324008147922148296",
+        "step_id": 2,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15324008147922148296",
+        "step_id": 3,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15324008147922148296",
+        "step_id": 5,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15324008147922148296",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15324008147922148296",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15324008147922148296",
+        "step_id": 9,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "aliexpress"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15324008147922148296",
+        "step_id": 10,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                248,
+                23,
+                254,
+                39
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15324008147922148296",
+        "step_id": 12,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15320863492598458003",
+        "step_id": 0,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                346,
+                1453,
+                370,
+                1496
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15320863492598458003",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                554,
+                1454,
+                577,
+                1497
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15320863492598458003",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                136,
+                190,
+                313,
+                217
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15320863492598458003",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                180,
+                228,
+                303,
+                250
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "15320863492598458003",
+        "step_id": 7,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                489,
+                362,
+                557,
+                385
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "9638558030813106349",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                127,
+                83,
+                199,
+                104
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "9638558030813106349",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                169,
+                232,
+                237,
+                244
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "923971713258769600",
+        "step_id": 0,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "923971713258769600",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "923971713258769600",
+        "step_id": 4,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "Paramount+ "
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "install",
+        "episode_id": "923971713258769600",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                87,
+                219,
+                97,
+                240
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "15445416013994287031",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                242,
+                457,
+                297,
+                470
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "15445416013994287031",
+        "step_id": 5,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "enter"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "15445416013994287031",
+        "step_id": 7,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                105,
+                1030,
+                120,
+                1061
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "15445416013994287031",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                259,
+                1032,
+                277,
+                1063
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "15445416013994287031",
+        "step_id": 9,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "14959943753074780141",
+        "step_id": 4,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                18,
+                113,
+                39,
+                150
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "14959943753074780141",
+        "step_id": 5,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                18,
+                238,
+                31,
+                265
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "14959943753074780141",
+        "step_id": 9,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "125775171364744926",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                386,
+                716,
+                423,
+                733
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "125775171364744926",
+        "step_id": 7,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "5764157367743652351",
+        "step_id": 6,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "enter"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "5764157367743652351",
+        "step_id": 7,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                45,
+                68,
+                69,
+                73
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "5764157367743652351",
+        "step_id": 16,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                52,
+                28,
+                202,
+                35
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "5764157367743652351",
+        "step_id": 17,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "8266489635168856346",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                143,
+                279,
+                227,
+                299
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "5178620367018956195",
+        "step_id": 0,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                464,
+                890,
+                476,
+                910
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "14640559031231493138",
+        "step_id": 7,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "razer nari"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "14640559031231493138",
+        "step_id": 8,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                641,
+                248,
+                672,
+                298
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "14640559031231493138",
+        "step_id": 12,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                286,
+                976,
+                435,
+                999
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "14640559031231493138",
+        "step_id": 13,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "3864026652011217670",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "type",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "3864026652011217670",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "3864026652011217670",
+        "step_id": 4,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                144,
+                62,
+                437,
+                84
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "3546384003053935309",
+        "step_id": 0,
+        "answer": {
+            "action_type": "press",
+            "action_detail": "home"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "3546384003053935309",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "3546384003053935309",
+        "step_id": 2,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                157,
+                553,
+                380,
+                568
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "3546384003053935309",
+        "step_id": 9,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                487,
+                163,
+                508,
+                197
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "3546384003053935309",
+        "step_id": 12,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                181,
+                836,
+                379,
+                854
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "3546384003053935309",
+        "step_id": 15,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                37,
+                886,
+                187,
+                903
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "13819694725348842109",
+        "step_id": 2,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "ebay.com"
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "13819694725348842109",
+        "step_id": 3,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "scroll",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "13819694725348842109",
+        "step_id": 6,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                179,
+                680,
+                360,
+                707
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "13819694725348842109",
+        "step_id": 12,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                24,
+                349,
+                512,
+                376
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "12028124159112331898",
+        "step_id": 4,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "12028124159112331898",
+        "step_id": 7,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                482,
+                111,
+                503,
+                142
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "12028124159112331898",
+        "step_id": 8,
+        "answer": {
+            "action_type": "scroll",
+            "action_detail": "up"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "12028124159112331898",
+        "step_id": 13,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "12028124159112331898",
+        "step_id": 15,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "type_match": true,
+        "exact_match": true,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "2337849608088430534",
+        "step_id": 1,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": [
+                346,
+                1451,
+                370,
+                1494
+            ]
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "2337849608088430534",
+        "step_id": 4,
+        "answer": {
+            "action_type": "click",
+            "action_detail": [
+                0,
+                0
+            ]
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": true,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "2337849608088430534",
+        "step_id": 8,
+        "answer": {
+            "action_type": "type",
+            "action_detail": "acer predator"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    },
+    {
+        "subset": "web_shopping",
+        "episode_id": "2337849608088430534",
+        "step_id": 15,
+        "answer": {
+            "action_type": "stop",
+            "action_detail": "stop"
+        },
+        "pred": {
+            "action_type": "click",
+            "action_detail": null
+        },
+        "type_match": false,
+        "exact_match": false,
+        "text_dist": null,
+        "format_hit": true
+    }
+]

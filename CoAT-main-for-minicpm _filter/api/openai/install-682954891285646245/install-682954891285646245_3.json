@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot is from the Google Play Store's search bar. It displays a list of recently searched applications: DoorDash, Facebook Messenger, Microsoft Authenticator, and Newsbreak. The search bar is at the top with the text \"Search for apps & games\" and a microphone icon for voice search. Below the search bar, there are four application names with a circular refresh icon next to each.",
+    "action_think": "The user wants to open the 'Life360: Find Family & Friends' app. To achieve this, I need to search for and select the app from the Google Play Store.",
+    "action_plan": [
+        "Scroll down the list to find 'Life360: Find Family & Friends'",
+        "If the app is not found, type 'Life360: Find Family & Friends' in the search bar"
+    ],
+    "action_desc": "Scroll down the list to find 'Life360: Find Family & Friends'",
+    "action_result": "I have clicked on the search bar and the text cursor is now visible in the search bar. This action allows you to type in the name of the app you're looking for, which is the next step towards finding and installing \"Life360: Find Family & Friends\".",
+    "prev_action_result": "By clicking on the search icon, you have accessed the search bar where you can type the name of the app you want to install. This action is necessary to find and install the app named \"Life360: Find Family & Friends\" as per your request.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

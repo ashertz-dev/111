@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot shows the home screen of a smartphone with a dark background featuring an abstract blue design. The screen displays the following apps: Gmail, Photos, and YouTube, along with a Google Chrome browser icon and a Google search bar at the bottom. There is also a Google Play Store app icon on the bottom right corner.",
+    "action_think": "The user wants to shop on Costco and add a product to the cart. First, I need to navigate to the Costco website.",
+    "action_plan": [
+        "Open the Google Chrome browser",
+        "Navigate to the Costco website"
+    ],
+    "action_desc": "Tap the Google Chrome icon",
+    "action_result": "By pressing the home button, I have moved back to the home screen. This is necessary because to install the user required app, we must fine the App store first."
+}

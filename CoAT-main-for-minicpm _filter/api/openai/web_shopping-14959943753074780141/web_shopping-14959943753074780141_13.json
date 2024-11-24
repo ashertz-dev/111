@@ -1,0 +1,7 @@
+{
+    "screen_desc": "The screenshot shows an Amazon shopping cart with a subtotal of $118.29. The item in the cart is the Razer Thresher For Xbox One. There is an option to proceed to checkout, and a button to send the item as a gift with a custom message. Below the cart, there are recommendations for other items customers who bought the cart item have also bought.",
+    "action_think": "The shopping cart has been emptied and the Razer Thresher has been added to the cart. The user request has been completed.",
+    "action_plan": [],
+    "action_desc": "End the task.",
+    "action_result": "The execution of user request is stopped."
+}

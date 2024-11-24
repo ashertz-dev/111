@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows a Google search for \"2 bedroom apartment rent\" with results displayed on the screen. The first result is an advertisement for apartments in Portland, OR, offering premium amenities and convenient, modern living options. The second result is another advertisement for apartments in Portland, OR, near Pearl District's finest cuisine, coffee shops, and brew pubs, with the option to apply online for up to 2 months free. The screen also includes options for the Google Discover feed, snapshot, search, collections, and more.",
+    "action_think": "The user wants to know the cost of a 2 bedroom apartment in Portland. I need to access the search results to find the information.",
+    "action_plan": [
+        "Scroll down to the search results",
+        "Find the first advertisement for Portland apartments and open it to view the cost"
+    ],
+    "action_desc": "Scroll down to the search results.",
+    "action_result": "The action of clicking on the search result ad led to the display of the website for a Portland apartment complex. This is relevant to the user's query as it may provide information about the rent prices for 2 bedroom apartments in Portland.",
+    "prev_action_result": "The user has searched for the rent of a 2 bedroom apartment in Portland, and the search results are now displayed on the screen. The user can now see the available options and their respective prices. This action has moved the user closer to finding the information they are looking for, which is the user request.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "down"
+                }
+            }
+        }
+    }
+}

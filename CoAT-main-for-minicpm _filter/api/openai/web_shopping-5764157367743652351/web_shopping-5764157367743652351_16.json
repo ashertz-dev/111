@@ -1,0 +1,23 @@
+{
+    "screen_desc": "The screen is a shopping cart page from Costco. It displays a single item, an LG UltraGear 32-inch QHD Gaming Monitor priced at $299.99, with a total of $299.99 after tax. The estimated delivery date is Friday, December 16, 2022, through expedited shipping and handling. The checkout button is visible at the bottom.",
+    "action_think": "The user's request is to empty the shopping cart and then add LG Ultragear to it. The current screen shows one item in the cart with the option to add to the cart. The next step is to click on the Remove button to empty the cart.",
+    "action_plan": [
+        "Click on the Remove button of the LG Ultragear item to empty the cart.",
+        "Click on the search icon to return to the search results page.",
+        "Click on the add to cart button for LG Ultragear to add it to the cart.",
+        "Click on the checkout button to complete the purchase."
+    ],
+    "action_desc": "Click on the Remove button",
+    "action_result": "You have successfully removed the LG UltraGear 32\" Class QHD Gaming Monitor from the cart. To complete the user request, you will need to add the LG Ultragear to the cart on Costco and then select checkout.",
+    "prev_action_result": "By clicking on the shopping cart icon, you have now accessed the shopping cart page. This is necessary to complete the user request, as it allows you to review the items in your cart and proceed to checkout.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 2
+                }
+            }
+        }
+    }
+}

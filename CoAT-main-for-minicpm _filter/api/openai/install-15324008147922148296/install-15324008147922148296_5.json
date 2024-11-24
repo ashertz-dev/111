@@ -1,0 +1,22 @@
+{
+    "screen_desc": "The screenshot is of a smartphone home screen with a dark background featuring a blue and white abstract design. At the top, there is a status bar displaying the date, day, and temperature. Below the status bar, there are four app icons: Gmail, Photos, YouTube, and Chrome. At the bottom, there are four additional app icons: Phone, Messages, Chrome, and Settings. The Google search bar is also visible at the very bottom.",
+    "action_think": "The user wants to open the AliExpress app. Since the app is not visible on the current screen, I need to navigate to the app drawer to find and open it.",
+    "action_plan": [
+        "Scroll up to view more apps",
+        "Find the AliExpress app in the app drawer",
+        "Select the AliExpress app"
+    ],
+    "action_desc": "Scroll up",
+    "action_result": "By pressing the home button, I have moved back to the home screen. This is necessary because to install the user required app, we must find the App store first.",
+    "prev_action_result": "By pressing the home button, you have moved to the home screen. To open the AliExpress app, you will need to find it in the app drawer or on your home screen. This is necessary because to open the app, you need to access it from the app drawer or home screen.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

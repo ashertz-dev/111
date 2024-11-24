@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot displays the \"Google Drive\" app interface with the \"Suggested\" tab selected. It shows a prompt \"No items\" and a search bar at the top for searching files and folders. Below the search bar are navigation icons labeled \"Home,\" \"Starred,\" \"Shared,\" and \"Files.\" There is also a \"plus\" icon for creating new items.",
+    "action_think": "The user wants to open the 'Life360: Find Family & Friends' app, which is not visible on the current screen. Therefore, I need to open the app drawer to find and open the app.",
+    "action_plan": [
+        "Open app drawer",
+        "Locate 'Life360: Find Family & Friends' app",
+        "Select the app to open"
+    ],
+    "action_desc": "Open app drawer",
+    "action_result": "By pressing the back button, I have returned to the home screen where you can access different applications, including the Play Store to install the required \"Life360: Find Family & Friends\" app. This is necessary because the app needs to be installed before it can be opened. The back button action has not yet made progress towards the user request, but it has brought you closer to finding and installing the app.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

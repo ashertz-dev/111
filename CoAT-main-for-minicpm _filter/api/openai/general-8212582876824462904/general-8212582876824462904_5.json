@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows the weather page for Hong Kong on a smartphone, with the query \"what is the weather like in Hong Kong\" at the top. It displays the current temperature as 77\u00b0F (26\u00b0C), with sunny weather and a \"feels like\" temperature of 77\u00b0F (26\u00b0C). The forecast for today shows sunny weather with a high of 78\u00b0F (26\u00b0C) and a low of 69\u00b0F (21\u00b0C). The hourly forecast below shows mostly sunny conditions throughout the day. There are tabs at the bottom for Discover, Snapshot, Search, Collections, and More.",
+    "action_think": "The user is asking about the price of a Samsung TV, but the current screen shows the weather in Hong Kong. I need to navigate to the Google Chrome app to perform a search for the Samsung TV price.",
+    "action_plan": [
+        "Access the Chrome app to perform a web search for Samsung TV price",
+        "Search for the Samsung TV price and display the results"
+    ],
+    "action_desc": "click on the Chrome app",
+    "action_result": "The user has typed \"what's the price of the samsung TV\" into the Google search bar. This action will allow the user to search for the price of a Samsung TV.",
+    "prev_action_result": "By clicking on the Chrome app, you have accessed the browser where you can search for the price of the Samsung TV. This action moves you closer to finding the information you need to complete your request.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 56
+                }
+            }
+        }
+    }
+}

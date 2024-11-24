@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot shows a list of recent restaurant searches on a mobile application. The search bar at the top is labeled \"Search here,\" and there are two tabs for \"Home\" and \"Work\" set location. The search history includes options like \"vegetarian restaurant,\" \"sushi restaurant,\" \"italian restaurant,\" \"seafood restaurant,\" \"pizza restaurant,\" \"Rise Pizzeria\" with its address, and \"sushi restaurants near me.\" There is also a button to view \"More from recent history.\"",
+    "action_think": "The user wants to search for Mexican restaurants on Maps. The search bar is visible at the top left of the screen, which is the appropriate place to input the search term.",
+    "action_plan": [
+        "Click on the search bar",
+        "Enter 'Mexican restaurants' into the search bar"
+    ],
+    "action_desc": "Click on the search bar located at the top left.",
+    "action_result": "The user has successfully typed in the query \"Mexican restaurants\" in the search bar, which is directly related to the user's request to find Mexican restaurants."
+}

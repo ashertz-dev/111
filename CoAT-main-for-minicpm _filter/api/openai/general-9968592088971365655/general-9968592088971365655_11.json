@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screenshot shows a Google search results page with a pop-up asking to open a video with either the Google Play Store or Chrome.",
+    "action_think": "The user has requested to play the latest video from the BBC, and the history actions show that the video is already displayed on the screen. The next action is to select the video to start playing it.",
+    "action_plan": [
+        "Select the video to start playing it"
+    ],
+    "action_desc": "Select the video",
+    "action_result": "The execution of user request is stopped."
+}

@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows the photo gallery app with a search bar at the top. It indicates that there are no photos, but suggests taking a picture. There are icons for photos, albums, assistant, and sharing at the bottom.",
+    "action_think": "The user wants to see creations saved in Google Photos. The screen shows the photo gallery app with no photos, but no actions have been taken to view the albums or creations.",
+    "action_plan": [
+        "scroll to the Albums tab",
+        "click on the Albums tab"
+    ],
+    "action_desc": "scroll to the Albums tab",
+    "action_result": "By clicking on the menu icon, we have opened the photo gallery app settings menu. This is necessary to navigate to the creation view within the app. Moving forward, we can select the \"Creation\" tab to view the saved creations.",
+    "prev_action_result": "The last action of clicking on the \"Confirm\" button has completed the process for uploading your photos to Google Photos. Now, the photo upload is set to high quality and will only upload over Wi-Fi, which is a necessary step to save space on your device and prevent data usage from increasing. You should now be able to view your photos in the Google Photos app.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "down"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot displays a search results page on a smartphone. The screen contains a list of previous search queries, including topics like weather, restaurants, flights, electronics stores, news, and exchange rates. The top of the screen has a Google search bar with a magnifying glass icon.",
+    "action_think": "The user is looking for the price of a Samsung TV. The search history on the screen does not contain any relevant search for Samsung TV.",
+    "action_plan": [
+        "Initiate a new search query for Samsung TV price"
+    ],
+    "action_desc": "input 'What's the price of the Samsung TV?' in the search bar and press the search icon",
+    "action_result": "The user has successfully typed in the query \"What's the price of the Samsung TV?\" into the search bar. This action is one step closer to finding out the price of a Samsung TV, as the search engine will now provide the relevant information based on the query.",
+    "prev_action_result": "The user has started typing their query in the search bar. This is a step towards completing the user request, as they are now ready to execute the search and find the price of the Samsung TV.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "input",
+                "ARGS": {
+                    "text": "What's the price of the Samsung TV?"
+                }
+            }
+        }
+    }
+}

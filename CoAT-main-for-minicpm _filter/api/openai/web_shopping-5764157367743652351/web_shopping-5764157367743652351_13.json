@@ -1,0 +1,12 @@
+{
+    "screen_desc": "The screenshot shows a shopping cart page on an e-commerce website, displaying two LG UltraGear monitors. The first monitor, priced at $299.99, is a 32-inch QHD gaming monitor, while the second, priced at $999.99, is a 38-inch WQHD IPS curved gaming monitor. Both monitors have options to adjust the quantity and are available for purchase with the \"Add\" button. There's also a filter for sorting items by delivery and showing out-of-stock items, and an option to get email offers.",
+    "action_think": "The user wants to clear shopping cart on Costco and then add LG Ultragear to the cart on Costco. Currently, the shopping cart is displaying items. To clear the cart, I should remove each item one by one. After clearing the cart, I should search for the LG Ultragear, add the first one to the cart, then proceed to checkout.",
+    "action_plan": [
+        "Remove each item from the cart",
+        "Search for LG Ultragear on Costco",
+        "Add the LG Ultragear to the cart",
+        "Proceed to checkout"
+    ],
+    "action_desc": "Click on the remove button for each item in the cart",
+    "action_result": "You have added the first LG Ultragear monitor to the cart. You can proceed to checkout now."
+}

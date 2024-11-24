@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows a Google search bar at the top with the text \"the United States\" entered. Below the search bar, there are autocomplete suggestions for related searches, such as \"president of the United States,\" \"president of the United States salary,\" and \"president of the United States list.\" At the bottom, there is a search result for \"The Presidents of the United States of America.\" The back button is visible on the left and the menu icon on the right.",
+    "action_think": "The user is looking for information about the president of the United States. The autocomplete suggestions are relevant to their query, so the next step is to select one of the suggestions to search for the information.",
+    "action_plan": [
+        "click on one of the autocomplete suggestions to initiate the search"
+    ],
+    "action_desc": "click on the search suggestion: 'president of the United States'",
+    "action_result": "The search results for \"president of the United States\" have been displayed on the screen. The user can now view the information about the current president of the United States, which is necessary to complete the user request.",
+    "prev_action_result": "You have typed in the content \"president of the United States\" on the search bar. This action will allow you to search for information about the president of the United States, which is relevant to your request.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 10
+                }
+            }
+        }
+    }
+}

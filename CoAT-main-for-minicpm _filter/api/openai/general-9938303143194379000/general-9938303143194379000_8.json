@@ -1,0 +1,9 @@
+{
+    "screen_desc": "The screenshot shows a Google search results page for \"restaurants in Denver.\" The top search result is a list of \"The 38 Essential Restaurants in Denver,\" followed by \"The Hottest Restaurants in Denver Right Now, Fall 2022.\" Below, there are sections with images of restaurants and brief descriptions, such as \"Saffa Restaurant\" and \"Ria Restaurant.\" At the bottom, there are additional search suggestions.",
+    "action_think": "The user is looking for a good restaurant in Denver. The search results are already displayed on the screen. The next step is to select a restaurant from the search results.",
+    "action_plan": [
+        "Select a restaurant from the search results."
+    ],
+    "action_desc": "Click on the 'Saffa Restaurant' listing to view more details about it.",
+    "action_result": "The last action clicked on a link to an article titled \"The 38 Essential Restaurants in Denver\" located at the middle part of the screen. This action is relevant to the user's request as it provides more information about restaurants in Denver."
+}

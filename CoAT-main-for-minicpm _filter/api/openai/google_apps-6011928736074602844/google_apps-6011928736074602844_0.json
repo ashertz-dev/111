@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows a smartphone home screen with a pink and purple gradient background. At the top, there's a Google Play store app icon with the text \"Google Play...\". At the bottom, there are icons for Google Chrome and Google, along with a Google Chat icon. The status bar at the top displays the time and several icons indicating network, battery, and other notifications.",
+    "action_think": "The user wants to see creations saved in Google Photos. The Google Photos app is not visible on the current screen, so I need to navigate to Google Photos to fulfill the user request.",
+    "action_plan": [
+        "Scroll up on the home screen to find the Google Photos app icon",
+        "Tap on the Google Photos app icon to open the app"
+    ],
+    "action_desc": "Scroll up on the home screen",
+    "action_result": "By scrolling up, you have reached the Google Photos app on the home screen. This action helps to complete the user request because it allows you to access the gallery to view the saved creations in Google Photos.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

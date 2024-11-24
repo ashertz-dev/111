@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows a product listing on eBay for an Apple MacBook Pro 15\" 1TB SSD 16GB i7 3.40Ghz Retina laptop with a Big Sur operating system. The item is listed at a price of $549.00, marked down from $1,150.00, offering a saving of $601.00 (52% off). The seller has a positive feedback rating of 99.5% and the listing has attracted 294 sales with 1,478 watchers. There are options to \"Buy It Now,\" \"View in cart,\" and \"Watch\" the listing. There is also an advertisement for the eBay app at the bottom of the screen.",
+    "action_think": "The user has already added 'macbook pro' to the cart. The next steps are to remove the item from the cart and proceed to checkout.",
+    "action_plan": [
+        "Remove the 'macbook pro' listing from the shopping cart",
+        "Proceed to checkout"
+    ],
+    "action_desc": "click on the shopping cart icon located at the top-right.",
+    "action_result": "The last action, clicking on the \"View in cart\" button, has brought you to the shopping cart page where you can see the items you've added. You are now ready to review your cart before proceeding to checkout. You have made progress towards your user request as you have added the macbook pro to the cart and are in the process of completing the checkout.",
+    "prev_action_result": "Scrolling up has taken you to the product page of an Apple MacBook Pro. This is a good start towards adding the macbook pro to your shopping cart, but it's not yet complete. You will need to add the macbook pro to your cart before you can proceed to checkout.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 5
+                }
+            }
+        }
+    }
+}

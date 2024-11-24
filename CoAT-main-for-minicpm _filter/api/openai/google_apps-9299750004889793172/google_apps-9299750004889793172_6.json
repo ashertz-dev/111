@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows a search result for \"mexican restaurant\" on a map-based service. It displays various Mexican restaurants in the area, with photos, ratings, and available reservation options.",
+    "action_think": "The user has successfully searched for Mexican restaurants on Maps. The next step is to select one of the restaurants from the search results.",
+    "action_plan": [
+        "Select a Mexican restaurant from the search results"
+    ],
+    "action_desc": "Select a Mexican restaurant from the search results",
+    "action_result": "The execution of user request is stopped.",
+    "prev_action_result": "The user has successfully searched for Mexican restaurants by clicking on the suggestion \"mexican restaurant\". This action has led to the display of the map and the list of Mexican restaurants, which is the desired outcome. The user's request has been completed, and the next step is to choose a restaurant from the list.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 6
+                }
+            }
+        }
+    }
+}

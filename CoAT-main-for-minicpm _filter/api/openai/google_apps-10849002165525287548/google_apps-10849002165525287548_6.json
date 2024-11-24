@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows the \"Special app access\" settings menu on an Android device. It lists various access settings such as battery optimization, display over other apps, Do Not Disturb access, and others.",
+    "action_think": "The user wants to turn off the Picture-in-Picture feature. The current screen shows the 'Special app access' settings menu, which includes the 'Picture-in-picture' option. I need to click on 'Picture-in-picture' to find the option to toggle it on or off.",
+    "action_plan": [
+        "click on 'Picture-in-picture' to access its settings."
+    ],
+    "action_desc": "click on 'Picture-in-picture'",
+    "action_result": "You have turned off Picture-in-picture for the selected apps. This should help you manage your device's battery life better.",
+    "prev_action_result": "The selected item 'Picture-in-picture' has been removed from the list, which means that this specific permission is no longer active for any apps. This aligns with the user's request to turn off picture-in-picture.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 21
+                }
+            }
+        }
+    }
+}

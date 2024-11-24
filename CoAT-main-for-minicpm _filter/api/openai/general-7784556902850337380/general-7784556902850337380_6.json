@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot displays a Google search for \"2 bedroom apartment rent\" with a sponsored advertisement for \"Studio, 1-2 Bedroom Apts - One Month Free - Apply Now\" from bowerboston.com. Below the search bar, there are options for \"Cable,\" \"Locations,\" \"About Furnished Quarters,\" \"Corporate Relocation,\" and \"Careers.\"",
+    "action_think": "The user is looking for information on the cost of a 2 bedroom apartment in Boston. The search results provide relevant links such as 'Cable,' 'Locations,' and 'About Furnished Quarters,' but no direct information on rental prices.",
+    "action_plan": [
+        "Scroll up to view more search results and look for a direct answer to the user's question regarding rental prices in Boston"
+    ],
+    "action_desc": "scroll up",
+    "action_result": "The screen shows a search result from FurnishedQuarters.com for studio, 1-2 bedroom apartments in Boston. By scrolling up, we can see more information about the apartments, which may help us find the rental price for a 2 bedroom apartment. This is progress towards the user's request.",
+    "prev_action_result": "Scrolling up will bring up more search results, which may provide more information on the cost of renting a 2-bedroom apartment in Boston. This action is helpful towards completing the user request because it increases the chances of finding the relevant and most accurate information.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

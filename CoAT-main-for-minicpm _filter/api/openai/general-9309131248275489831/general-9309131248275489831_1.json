@@ -1,0 +1,19 @@
+{
+    "screen_desc": "The screen shows the Google search bar with recent searches displayed below it, including \"search for a new blush,\" \"flights from Barcelona to Mexico City,\" \"good Thai restaurants,\" and \"what is the speed of a bicycle.\" Below the search bar, there are shortcut icons for Clock, YouTube, Gmail, Photos, and Calendar.",
+    "action_think": "The user is looking for information about the rental price of a 2 bedroom apartment in Portland. The Google search bar is a suitable tool to conduct the search.",
+    "action_plan": [
+        "Search for '2 bedroom apartment rent Portland' on Google"
+    ],
+    "action_desc": "click on the Google search bar located at the bottom middle.",
+    "action_result": "By typing in the content: \"2 bedroom apartment rent for in Portland\", you have entered your query into the search bar. This will help you to find the information you are looking for, which is the current rental price for a 2 bedroom apartment in Portland.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 1
+                }
+            }
+        }
+    }
+}

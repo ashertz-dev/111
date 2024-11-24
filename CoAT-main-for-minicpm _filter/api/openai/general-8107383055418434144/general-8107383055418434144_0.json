@@ -1,0 +1,19 @@
+{
+    "screen_desc": "The screenshot shows a smartphone home screen with a dark-themed wallpaper featuring a blue and black gradient. The home screen has several app icons including Gmail, Photos, YouTube, and applications for phone calls, messages, and a web browser. There is also a Google search bar at the bottom of the screen.",
+    "action_think": "The user wants to know the news in Thailand. I need to open the news application to access the latest news.",
+    "action_plan": [
+        "Click on the news application icon to open it"
+    ],
+    "action_desc": "Click on the news application icon.",
+    "action_result": "You have clicked the Google Chrome icon. The screen has changed to the Google Chrome app with the search bar at the bottom. You can now type \"What's the news in Thailand?\" in the search bar and proceed with your request.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 9
+                }
+            }
+        }
+    }
+}

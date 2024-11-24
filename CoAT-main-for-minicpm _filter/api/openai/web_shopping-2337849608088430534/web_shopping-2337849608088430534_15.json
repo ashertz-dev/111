@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows a Walmart search results page with a selected Acer Predator monitor priced at $299, down from $379. The monitor is a GZbmiiprx 27\" FHD (1920 x 1080) IPS Monitor with a rating of 4.5 stars out of 5. There is also an option to save with 3+ day shipping. At the bottom, there is another Acer Predator monitor, a restored model priced at $199.99. The page also shows that the item is in 50+ people's carts.",
+    "action_think": "The user has already added an Acer Predator monitor to the cart. The next step is to navigate to the shopping cart page to view the items.",
+    "action_plan": [
+        "click on the shopping cart icon located at the top right of the screen to navigate to the shopping cart page"
+    ],
+    "action_desc": "click on the shopping cart icon located at the top right of the screen",
+    "action_result": "The execution of user request is stopped.",
+    "prev_action_result": "The last action was to click on the \"Add\" button, which has added the acer predator to the shopping cart. The user is now viewing the shopping cart on Walmart.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 6
+                }
+            }
+        }
+    }
+}

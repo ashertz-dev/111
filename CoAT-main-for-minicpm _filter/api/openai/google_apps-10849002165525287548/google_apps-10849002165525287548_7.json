@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows the \"Picture-in-picture\" settings page on an Android device. It lists various apps, including Chrome, Google Play Movies & TV, Google Play services, Maps, and YouTube, with their respective permissions to use picture-in-picture mode set to \"Allowed.\"",
+    "action_think": "The user wants to turn off picture-in-picture for all the listed apps. I need to scroll through the list and tap on the 'Not allowed' option for each app.",
+    "action_plan": [
+        "Scroll through the list of apps.",
+        "Tap on 'Not allowed' for each app."
+    ],
+    "action_desc": "scroll to the right to find the 'Not allowed' option for Google Play Movies & TV.",
+    "action_result": "By clicking on the \"Chrome\" settings label, the settings menu for Chrome was opened. This action helps to complete the user request, because it allows you to turn off picture-in-picture for the Chrome app, which is the target app mentioned in the user request.",
+    "prev_action_result": "You have turned off Picture-in-picture for the selected apps. This should help you manage your device's battery life better.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "right"
+                }
+            }
+        }
+    }
+}

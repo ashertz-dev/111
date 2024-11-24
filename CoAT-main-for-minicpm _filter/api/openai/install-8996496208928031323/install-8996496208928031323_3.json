@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot shows the \"Zoom Cloud Meetings\" app page on an Android phone. There is an option to uninstall the app, a \"Open\" button, and a section suggesting other apps like VLC, Fasting, and Wish. It also provides information about the app's features and its position in the app charts.",
+    "action_think": "The user wants to uninstall 'DoorDash - Food Delivery' app. However, the screenshot shows the 'Zoom Cloud Meetings' app page. I need to scroll down to reach the search bar where the user can search for the DoorDash app.",
+    "action_plan": [
+        "Scroll down the screen to reveal the search bar located at the upper middle part of the screen.",
+        "Click on the search bar to activate it and enter the word 'DoorDash'."
+    ],
+    "action_desc": "Scroll down",
+    "action_result": "By clicking on the search icon (a magnifying glass) located at the upper right, the user has accessed the search function of the app. This action is necessary because the user needs to search for the \"DoorDash - Food Delivery\" app to uninstall it.",
+    "prev_action_result": "Clicking on the Google Play Store app has taken us back to the home screen, where I can now find and uninstall \"DoorDash - Food Delivery\". This action is necessary to remove the app from the device.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "down"
+                }
+            }
+        }
+    }
+}

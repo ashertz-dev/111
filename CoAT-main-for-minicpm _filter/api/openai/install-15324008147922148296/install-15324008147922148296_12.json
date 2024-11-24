@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows the installation page for the AliExpress Exclusive Deals app on a smartphone. The app is rated 4.0 stars based on 241 reviews and has 10,000+ downloads. It is designed for shopping assistance and offers exclusive deals and discounts. Additional features include amazing deals, search for products, and top categories. The app is free and has been rated Everyone.",
+    "action_think": "The user wants to open the 'AliExpress Exclusive Deals' app, and I have already located it in the app store. I need to select the app to complete the user request.",
+    "action_plan": [
+        "Select the 'AliExpress Exclusive Deals' app to open it"
+    ],
+    "action_desc": "Tap on 'AliExpress Exclusive Deals' to open the app.",
+    "action_result": "The execution of user request is stopped.",
+    "prev_action_result": "You have successfully opened the AliExpress Exclusive Deals app, which is the \"AliExpress\" app you requested to open. This app provides a variety of deals and discounts, and by opening it, you are now able to browse and take advantage of these offers.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "click_element",
+                "ARGS": {
+                    "idx": 13
+                }
+            }
+        }
+    }
+}

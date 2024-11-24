@@ -1,0 +1,12 @@
+{
+    "screen_desc": "The screenshot shows a shopping cart on the eBay mobile website. The cart contains a single item, a Logitech G910 keyboard with the Radian Version, priced at $34.63. There's an option to apply an offer that saves up to 10%. The subtotal is $37.63. The user can choose to save the item for later or remove it, and there's a \"Go to checkout\" button at the bottom.",
+    "action_think": "To fulfill the user request, I need to empty the shopping cart and add the 'macbook pro' to the cart. I will first click on the 'Remove' link to remove the item from the cart, then I will navigate to a search result for 'macbook pro' and add it to the cart.",
+    "action_plan": [
+        "click on the 'Remove' link to remove the Logitech G910 keyboard from the cart.",
+        "navigate to the 'macbook pro' search result.",
+        "add the 'macbook pro' to the cart.",
+        "click on the 'Go to checkout' button to complete the process."
+    ],
+    "action_desc": "click on the 'Remove' link to remove the Logitech G910 keyboard from the cart.",
+    "action_result": "The Add to cart button was clicked on the middle right side of the screen. This action has added the \"macbook pro\" item to the shopping cart."
+}

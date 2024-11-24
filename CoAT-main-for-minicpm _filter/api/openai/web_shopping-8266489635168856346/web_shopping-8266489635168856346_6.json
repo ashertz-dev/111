@@ -1,0 +1,11 @@
+{
+    "screen_desc": "The screenshot is from a shopping cart on a website, showing an item with a discount and an option to save for later or remove it.",
+    "action_think": "The user wants to clear all items from the cart. The current screen shows the shopping cart with one item and options to save or remove items.",
+    "action_plan": [
+        "Scroll up to select the 'Remove' option for the item and remove it from the cart.",
+        "Scroll up to select the 'Remove' option for additional items and remove them from the cart.",
+        "Scroll up to select the 'Remove' option for all items and remove them from the cart."
+    ],
+    "action_desc": "Scroll up to select the 'Remove' option for the item and remove it from the cart.",
+    "action_result": "The action of clicking on the \"Remove\" button has successfully removed the item from the user's cart. In the current screenshot, the item with the price $39.99 has been removed, and the total price is now $1,199.99. This action aligns with the user's request to clear all items from the cart on Best Buy."
+}

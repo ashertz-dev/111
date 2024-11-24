@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows a Google search results page for \"what news in Vietnam,\" displaying top stories from news sources like Al Jazeera and Bloomberg. The search bar at the top is active, waiting for input. Below the search bar, there are tabs for News, Videos, Images, Shopping, and Books. The page features a mix of articles and headlines related to Vietnam, including news about China's tech crown and Vietnam's \"zero COVID\" policy. The Discover, Snapshot, Search, Collections, and More icons are visible at the bottom of the screen.",
+    "action_think": "The user has already performed the search query and is interested in the search results. Therefore, the next logical step is to stop the current action sequence and set the search results as the final action.",
+    "action_plan": [
+        "Stop performing any further actions since the user has already obtained the search results for news in Vietnam."
+    ],
+    "action_desc": "Stop",
+    "action_result": "The execution of user request is stopped.",
+    "prev_action_result": "By clicking on the search suggestion, you have executed the user query and are now viewing the search results for \"What's the news in Vietnam.\" This action has completed the user request as it provides the information the user was looking for.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "stop",
+                "ARGS": {
+                    "task_status": "success"
+                }
+            }
+        }
+    }
+}

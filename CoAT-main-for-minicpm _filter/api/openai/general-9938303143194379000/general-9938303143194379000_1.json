@@ -1,0 +1,20 @@
+{
+    "screen_desc": "The screenshot shows a smartphone home screen with a pink background. The screen displays the date \"Mon, Oct 10\" at the top. Below the date, there are app icons for Gmail, Photos, and YouTube. At the bottom, there are additional app icons for the phone, messages, and a web browser. The Google search bar is visible at the very bottom.",
+    "action_think": "The user needs information on a good restaurant in Denver. I should guide the user to a search engine or a map app where they can find local restaurant recommendations.",
+    "action_plan": [
+        "search the web for 'good restaurants in Denver'",
+        "find a map app to check the location of the restaurant"
+    ],
+    "action_desc": "open the Google search app",
+    "action_result": "By clicking on the Chrome browser icon, you have launched the browser application and navigated to the search bar where you can type your query. This action is crucial towards completing your request, as you need to use a search engine to find the information you need, which is a good restaurant in Denver.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "open_app",
+                "ARGS": {
+                    "app_name": "Google Search"
+                }
+            }
+        }
+    }
+}

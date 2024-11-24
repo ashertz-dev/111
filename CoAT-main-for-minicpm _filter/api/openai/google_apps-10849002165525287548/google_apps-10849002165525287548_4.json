@@ -1,0 +1,21 @@
+{
+    "screen_desc": "The screenshot displays the \"Apps & notifications\" settings page on a smartphone. It shows recently opened apps with icons for Gmail, Photos, and Google, along with their timestamps. Below, options for notifications, default apps, permission manager, and advanced settings are listed.",
+    "action_think": "The user wants to turn off picture-in-picture. The 'Notifications' section is visible on the screen, which is where the option to turn off picture-in-picture in the 'Emergency alerts' or 'Special app access' settings might be found.",
+    "action_plan": [
+        "Scroll down to the 'Emergency alerts' section.",
+        "Select 'Emergency alerts' to access the picture-in-picture settings."
+    ],
+    "action_desc": "Scroll down to the 'Emergency alerts' section.",
+    "action_result": "By clicking on the \"Advanced\" section, you can access more settings in the Apps & notifications section. This is a step towards turning off Picture-in-Picture, which is a frequent request.",
+    "prev_action_result": "You have returned to the previous screen. Now, you can access the \"Advanced\" settings where you can turn off picture-in-picture. This action has brought you closer to fulfilling the user request.",
+    "action_predict": {
+        "COAT": {
+            "tag": {
+                "ACTION": "scroll",
+                "ARGS": {
+                    "direction": "up"
+                }
+            }
+        }
+    }
+}

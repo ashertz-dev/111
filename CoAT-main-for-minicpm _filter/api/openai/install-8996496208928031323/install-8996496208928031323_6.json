@@ -1,0 +1,10 @@
+{
+    "screen_desc": "The screenshot displays a food delivery app, DoorDash, on a smartphone app store. It shows the app's logo, rating, number of downloads, and an installation button. Below the installation button, there are promotional banners with offers and features. The description at the bottom explains the app's functionality, which is to deliver food from your favorite restaurants.",
+    "action_think": "The user wants to uninstall the DoorDash app. The current screen is showing the DoorDash app in the Google Play Store, which is the correct location for uninstallation.",
+    "action_plan": [
+        "click on the 'Uninstall' button located at the upper right part of the screen.",
+        "confirm the uninstallation prompt if it appears."
+    ],
+    "action_desc": "click on the 'Uninstall' button located at the upper right part of the screen.",
+    "action_result": "The execution of user request is stopped."
+}
