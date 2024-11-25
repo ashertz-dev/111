@@ -14,16 +14,14 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 import imagesize
 
-
-def annotate_and_save_image(img_path, output_folder, gt_action_type, gt_action_detail, pd_action_type, pd_action_detail,
-                            type_match, exact_match, subset, episode_id, step_id):
+def annotate_and_save_image(img_path, output_folder, gt_action_type, gt_action_detail, pd_action_type, pd_action_detail, type_match, exact_match, subset, episode_id, step_id):
     """在指定文件夹中保存带有操作详情的注释图像。"""
     # 加载图像并获取尺寸
     image = Image.open(img_path)
     draw = ImageDraw.Draw(image)
     font_path = "/usr/share/fonts/dejavu/DejaVuSans.ttf"  # 根据你的系统调整路径
     font = ImageFont.truetype(font_path, 20)  # 根据需要选择更大的字体尺寸
-
+    
     w, h = imagesize.get(img_path)
 
     # 创建注释文本
@@ -62,13 +60,12 @@ def annotate_and_save_image(img_path, output_folder, gt_action_type, gt_action_d
         y_text += draw.textsize(line, font=font)[1] + 5  # 移动到下一行的位置
     if pd_action_type == 'click' and type_match:
         ymin, xmin, height, width = gt_action_detail  # 解析GT动作细节
-        pd_x = pd_action_detail["x"] * w
-        pd_y = pd_action_detail["y"] * h
-        gt_box = [xmin * w, ymin * h, (xmin + width) * w, (ymin + height) * h]
+        pd_x = pd_action_detail["x"]*w
+        pd_y =pd_action_detail["y"]*h
+        gt_box = [xmin*w, ymin*h, (xmin + width)*w, (ymin + height)*h]
         draw.rectangle(gt_box, outline="green", width=3)
         point_radius = 5
-        draw.ellipse((pd_x - point_radius, pd_y - point_radius, pd_x + point_radius, pd_y + point_radius), fill="blue",
-                     outline="blue")
+        draw.ellipse((pd_x - point_radius, pd_y - point_radius, pd_x + point_radius, pd_y + point_radius), fill="blue", outline="blue")
     # 将注释图像保存到输出文件夹
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -77,7 +74,6 @@ def annotate_and_save_image(img_path, output_folder, gt_action_type, gt_action_d
     image.save(output_path)
 
     return output_path
-
 
 def find_closest_box(point, ui_positions):
     """
@@ -93,7 +89,7 @@ def find_closest_box(point, ui_positions):
     """
     point_y, point_x = point
     min_distance_sum = float('inf')
-    closest_box = None
+    closest_box = [0,0,0,0]
     print(ui_positions)
     for box in ui_positions:
         ymin, xmin, height, width = box
@@ -111,6 +107,7 @@ def find_closest_box(point, ui_positions):
                 closest_box = box
 
     return closest_box
+
 
 
 def get_direction(point1, point2):
@@ -168,10 +165,9 @@ class ActionEvaluator(object):
         if "type" in action_api: return "type"
         if "swipe" in action_api: return "scroll"
         return "stop"
-        # for act_type in self._all_action_types_:
+        #for act_type in self._all_action_types_:
         #    if act_type in action_api: return act_type
-        # return None
-
+        #return None
     def action_map_old(self, action_api: str):
         if not action_api: return None
         action_api = action_api.lower()
@@ -182,17 +178,17 @@ class ActionEvaluator(object):
 
     def _parse_action_(self, pred, w, h):
         pr = pred.get('action_predict', {})
-        if self.demo_mode not in pr: return (None,) * 6
+        if self.demo_mode not in pr: return (None, ) * 6
 
         action = pr[self.demo_mode].get(self.screen_mode, {})
-        if not action: return (None,) * 6
+        if not action: return (None, ) * 6
 
         pd_action_type = self.action_map(action.get('ACTION', None))
         if pd_action_type is None: print(action)
 
         pd_action_args = action.get('ARGS', {})
         if not isinstance(pd_action_args, dict): pd_action_args = {}
-        # 这里要改
+        #这里要改
         x = ((pd_action_args.get('coordinate', {})).get('x', 0)) / 1000
         y = ((pd_action_args.get('coordinate', {})).get('y', 0)) / 1000
         pd_action_xy = {"x": x, "y": y}
@@ -221,10 +217,10 @@ class ActionEvaluator(object):
                 pd_action_idx = int(pd_action_idx)
             except:
                 pd_action_idx = None
-        # 这个要加判断
+        #这个要加判断
         point1 = pd_action_args.get('touch_coordinate', None)
         point2 = pd_action_args.get('lift_coordinate', None)
-        # pd_action_direction = pd_action_args.get('direction', None)
+        #pd_action_direction = pd_action_args.get('direction', None)
         pd_action_direction = None
         if point1 is not None and point2 is not None:
             pd_action_direction = get_direction(point1, point2)
@@ -233,23 +229,23 @@ class ActionEvaluator(object):
             (pd_action_args.get("button")).lower()
 
         return pd_action_type, pd_action_xy, pd_action_idx, \
-            pd_action_direction, pd_action_text, pd_action_button
+               pd_action_direction, pd_action_text, pd_action_button
 
     def _parse_answer_(self, gt):
-        gt_cand_nodes = None
-        gt_action_text = None
-        gt_action_type = None
-        gt_action_xy = None
-        gt_action_direction = None
-        gt_action_button = None
+        gt_cand_nodes=None
+        gt_action_text=None
+        gt_action_type=None
+        gt_action_xy=None
+        gt_action_direction=None
+        gt_action_button=None
         if gt['result_action_type'] == 3:
             gt_action_type = "type"
             gt_action_text = gt['result_action_text']
-        if gt['result_action_type'] == 4:  # 可能是滑动或者点击
+        if gt['result_action_type'] == 4:  #可能是滑动或者点击
             normalized_start_yx = gt['result_touch_yx']
             normalized_start_yx = json.loads(normalized_start_yx)
             normalized_end_yx = gt['result_lift_yx']
-            normalized_end_yx = json.loads(normalized_end_yx)
+            normalized_end_yx =json.loads(normalized_end_yx)
             if is_tap_action(normalized_start_yx, normalized_end_yx):
                 ui_positions = json.loads(gt['ui_positions'])
                 gt_action_type = "click"
@@ -275,7 +271,7 @@ class ActionEvaluator(object):
         if gt['result_action_type'] == 10 or gt['result_action_type'] == 11:
             gt_action_type = "stop"
             gt_action_text = gt['result_action_text']
-        # 这里实际上用不上gt_action_xy了，但是为了保持代码结构没有去掉
+        #这里实际上用不上gt_action_xy了，但是为了保持代码结构没有去掉
         gt_action_xy = []
         # gt_words = gt['coat_action_desc'].split(' ')
 
@@ -318,7 +314,7 @@ class ActionEvaluator(object):
         # gt_cand_nodes = row_col_sort(gt_cand_nodes)
 
         return gt_action_type, gt_action_xy, gt_cand_nodes, \
-            gt_action_text, gt_action_button, gt_action_direction
+               gt_action_text, gt_action_button, gt_action_direction
 
     def _check_click_(self, pred_bbox, gt_xy, gt_nodes):
         # gt_xy is within pred_bbox
@@ -368,7 +364,7 @@ class ActionEvaluator(object):
         hit_format = True if pd_action_type is not None else False
         type_match = (pd_action_type is not None
                       and gt_action_type == pd_action_type)
-        pd_action_detail = {
+        pd_action_detail={
             "click": pd_action_xy,
             "scroll": pd_action_direction,
             "type": pd_action_text,
@@ -378,7 +374,7 @@ class ActionEvaluator(object):
         exact_match = False
         text_dist = None
         if type_match and pd_action_type == "click":
-            # print("hihi")
+            #print("hihi")
             # if self.screen_mode == "tag" and pd_action_idx: # transform idx into bbox
             #     if 0 <= pd_action_idx < len(gt_cand_nodes):
             #         pd_action_bbox = gt_cand_nodes[pd_action_idx]['bounds']
@@ -388,7 +384,7 @@ class ActionEvaluator(object):
             xmax = xmin + width
             exact_match = ((ymin <= pd_action_xy["y"] <= ymax)
                            and (xmin <= pd_action_xy["x"] <= xmax))
-            # exact_match = self._check_click_(pd_action_bbox, gt_action_xy, gt_cand_nodes)
+            #exact_match = self._check_click_(pd_action_bbox, gt_action_xy, gt_cand_nodes)
 
         if type_match and pd_action_type == "scroll":
             pd_action_detail = pd_action_direction
@@ -408,11 +404,13 @@ class ActionEvaluator(object):
         if type_match and pd_action_type == "stop":
             pd_action_detail = "stop"
             exact_match = True
-        output_folder = "/home/test/test03/minicpm-a/model_evaluation/aitz/CoAT-main_kun/output"
+        output_folder = os.getenv('OUTPUT_PATH',"/home/test/test03/minicpm-a/model_evaluation/aitz/CoAT-main_kun/output")
+        model=os.getenv("MODEL",'minicpm')
+        output_folder=os.path.join(output_folder,model,"output")
         annotate_and_save_image(gt['image_full_path'], output_folder,
                                 gt_action_type, gt_action_detail,
                                 pd_action_type, pd_action_detail, type_match,
-                                exact_match, subset, episode_id, step_id)
+                                exact_match,subset, episode_id, step_id)
         return {
             "subset": subset,
             "episode_id": episode_id,
@@ -436,10 +434,8 @@ class ActionEvaluator(object):
         for __, eplist in episode_results.items():
             ep_success, ep_progress = True, 0
             for ex in eplist:
-                if ex['exact_match'] is True:
-                    ep_progress += 1
-                else:
-                    ep_success = False
+                if ex['exact_match'] is True: ep_progress += 1
+                else: ep_success = False
                 if not ep_success: break
             success.append(ep_success)
             progress.append(ep_progress / len(eplist) * 1.0)
@@ -497,7 +493,7 @@ class ActionEvaluator(object):
                 recorder[action_type]['exact_match'] += step['exact_match']
                 recorder['total']['exact_match'] += step['exact_match']
                 if 'text_dist' in recorder[action_type] and step[
-                    'text_dist'] is not None:
+                        'text_dist'] is not None:
                     recorder[action_type]['text_dist'].append(
                         step['text_dist'])
 
@@ -507,9 +503,9 @@ class ActionEvaluator(object):
             ['total', 'CLICK', 'SCROLL', 'PRESS', 'STOP', 'TYPE']
         }
         scores['total']['hit_rate'] = round(recorder['total']['hit'] / recorder['total']['count'], 4) if \
-            recorder['total']['count'] > 0 else 0
+        recorder['total']['count'] > 0 else 0
         for metric_key in [
-            'total', 'CLICK', 'SCROLL', 'PRESS', 'STOP', "TYPE"
+                'total', 'CLICK', 'SCROLL', 'PRESS', 'STOP', "TYPE"
         ]:
             scores[metric_key]['type_acc'] = round(
                 recorder[metric_key]['type_match'] /
@@ -523,5 +519,5 @@ class ActionEvaluator(object):
             scores['TYPE']['text_dist'] = round(
                 sum(recorder['TYPE']['text_dist']) /
                 len(recorder['TYPE']['text_dist']), 4) if len(
-                recorder['TYPE']['text_dist']) > 0 else 0
+                    recorder['TYPE']['text_dist']) > 0 else 0
         return scores

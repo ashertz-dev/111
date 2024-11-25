@@ -231,7 +231,6 @@ class ScreenAgent(BaseAgent):
     def add_screen_tag(self, step_data, save_dir, update=False):
         """ Set of Mark Prompting """
         src_image_path = step_data['image_full_path']
-        #print(src_image_path)
         base_name, ext = os.path.splitext(src_image_path)
         dst_image_path = base_name + "_tag" + ext
         # image_name = os.path.basename(src_image_path)
@@ -241,14 +240,14 @@ class ScreenAgent(BaseAgent):
             ui_bboxes = []
             for ui_node in step_data['ui_elements']:
                 ui_bboxes.append(ui_node['bounds'])
-
-            tag_image = draw_bbox(src_image_path, bboxes=ui_bboxes,
+            
+            tag_image = draw_bbox(src_image_path, bboxes=ui_bboxes, 
                                 texts=list(map(str, range(len(step_data['ui_positions'])))),
                                 rgba_color=(255, 0, 0, 180), thickness=5)
             tag_image.save(dst_image_path)
         return dst_image_path
 
-    def add_screen_txt(self, step_data, indent=2):
+    def add_screen_txt(self, step_data, indent=2): 
         """ Textual Representation of Screen Elements """
         image_path = step_data['image_full_path']
         w, h = imagesize.get(image_path)
@@ -269,7 +268,7 @@ class ScreenAgent(BaseAgent):
 
         ui_elements = []
         for org_bbox, txt, ui_class in zip(
-            step_data['ui_positions'], step_data['ui_text'], step_data['ui_type']):
+            step_data['ui_positions'], step_data['ui_text'], step_data['ui_types']):
             ymin, xmin, h, w  = org_bbox
             bbox = [xmin, ymin, xmin+w, ymin+h]
             ui_elements.append({"bounds": bbox, "text": txt, "type": ui_class})
@@ -399,10 +398,10 @@ class ScreenAgent(BaseAgent):
             prev_anno = json.load(open(prev_save_path, "r"))
             #cur_anno['prev_action_result'] = prev_anno['action_result']
 
-        action_mode = "COA"
+        action_mode = self.cfg.DEMO_MODE.upper()
         if action_mode == "COA":    func_handler = self.coa_action
-        elif action_mode == "COT":  func_handler = self.coa_action
-        elif action_mode == "COAT": func_handler = self.coa_action
+        elif action_mode == "COT":  func_handler = self.cot_action
+        elif action_mode == "COAT": func_handler = self.coat_action
         else: raise NotImplementedError
 
         if 'action_predict' not in cur_anno: cur_anno['action_predict'] = {}
@@ -413,8 +412,8 @@ class ScreenAgent(BaseAgent):
         #     cur_anno['action_predict'][action_mode][self.screen_mode] = anno
         #     json.dump(cur_anno, open(cur_save_path, "w", encoding="utf-8"), indent=4)
         
-        #if self.screen_mode not in cur_anno['action_predict'][action_mode]:
-        if True:
+        if self.screen_mode not in cur_anno['action_predict'][action_mode]:
+        #if True:
             print(f"[Mode {action_mode}][{self.screen_mode}] Gnerating action ... ({cur_save_path})")
             try_num = 0
             while try_num < max_trials:

@@ -5,6 +5,7 @@ import io
 import json
 import requests
 import random
+import re
 import base64
 import tempfile
 import numpy as np
@@ -75,7 +76,7 @@ class OpenAIModel(BaseModel):
                 for img_path in image_paths:
                     base64_image = self.encode_image(image_path=img_path)
                     message[0]['content'].append(
-                        {'type': 'image_url', 'image_url': base64_image}
+                        {'type': 'image_url', 'image_url': {"url": f"data:image/jepg;base64,{base64_image}", "detail": detail}}
                     )
         
         if isinstance(prompt, list):
@@ -86,7 +87,7 @@ class OpenAIModel(BaseModel):
                     base64_image = self.encode_image(image_path=image_paths[img_index])
                     message.append({'role': role, 'content': [
                         {'type': 'text', 'text': msg['text']},
-                        {'type': 'image_url', 'image_url': base64_image}
+                        {'type': 'image_url', 'image_url': {"url": f"data:image/jepg;base64,{base64_image}", "detail": detail}}
                     ]})
                 else:
                     if isinstance(msg, dict):
@@ -106,7 +107,7 @@ class OpenAIModel(BaseModel):
                         if "img_index" in prompt[role]:
                             img_index = prompt[role].pop('img_index')
                             base64_image = self.encode_image(image_path=image_paths[img_index])
-                            msg['content'].append({'type': 'image_url', 'image_url': base64_image})
+                            msg['content'].append({'type': 'image_url', 'image_url': {"url": f"data:image/jepg;base64,{base64_image}", "detail": detail}})
                     message.append(msg)  
         # message += [
         #     {'role': 'user', 'content': [
@@ -125,58 +126,71 @@ class OpenAIModel(BaseModel):
     def chat(self, image_path:str, prompt:Union[str, dict], history:list=[], temperature=1, max_new_tokens=1024, **kwargs: Any):
         message = history + self.format_query(image_path, prompt)
         for each_message in message:
-            each_message["role"]=each_message["role"].upper()
-            for each_content in each_message["content"]:
-                if (each_content["type"]=="text"):
-                    each_content["pairs"]=each_content.pop(each_content["type"])
-                    each_content["type"]="TEXT"
-                if (each_content["type"]=="image_url"):
-                    each_content["pairs"]=each_content.pop(each_content["type"])
-                    each_content["type"]="IMAGE"
-            each_message["contents"] = each_message.pop("content")
-        print(message)
+            if each_message["role"]=="system":
+                each_message["role"]="user"
+        #print(message)
+        dict_string = str(message)
+        #print()
+        if (dict_string.count('image_url')>2):
+            print("这是不好的")
+            print(message)
+        '''
         headers = {
-            'app-code': 'gui_minicpmv_linshu',
-            'app-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsInNpZ25fdHlwZSI6IlNJR04ifQ.eyJhY2Nlc3NfdG9rZW4iOiJjZ0s4QkNfajMzOUlGWjlZUlN5ZUQ0Z3JpZ0d4cjc2LXNKYmtxelFjT1o0IiwiZXhwX3RpbWUiOjI1OTIwMDAwMDAsInRpbWVzdGFtcCI6MTczMTY2MTE0ODMxMn0.klimcKw5ZtUAviAFAlB2lm9bBDHe661V1SvnL6vc0eM',
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Authorization': f'Bearer {self.api_key}'
         }
         payload = {
-            "userSafe": 0,
-            "aiSafe": 0,
-            "modelId": 207,
-            "chatMessage": message
+            # 'model': 'gpt-4-turbo',
+            # 'model': 'gpt-4-vision-preview',
+            'model': self.model_name,
+            'messages': message,
+            'max_tokens': max_new_tokens,
+            'seed': self.seed,
         }
 
-        response = requests.post("https://gui-agent.modelbest.cn/llm/client/conv/accessLargeModel/sync", headers=headers, json=payload)
+        response = requests.post(self.api_url, headers=headers, json=payload)
         response_state = response.status_code
-        #print(response_state)
-        #print(response_state)
-        try:
+        
+        try: 
             response_json = response.json()
-            print(response_json['data']['messages'][0]['content'])
-            response_str = response_json['data']['messages'][0]['content']
-        except:
+            response_str = response_json['choices'][0]['message']['content']
+        except: 
             response_json, response_str = {}, ""
 
         if response_state == 200:
+            history += message
+            history += [{'role': 'assistant', 'content': response_str}]
+        '''
+        response_str = ""
+        try:
+            chat_completion_from_url = self.client.chat.completions.create(
+                messages=message,
+                model=self.model_name,
+            )
+            result = chat_completion_from_url.choices[0].message.content
+            response_str = result
+            response_state = 200
+        except:
+            response_state = 404
+            
+        if response_state == 200:
             #history += message
-            history +=  [{'role': 'AI', 'contents': response_str}]
-        # response_str = ""
-        # try:
-        #     chat_completion_from_url = self.client.chat.completions.create(
-        #         messages=message,
-        #         model=self.model_name,
-        #     )
-        #     result = chat_completion_from_url.choices[0].message.content
-        #     response_str = result
-        #     response_state = 200
-        # except:
-        #     response_state = 404
-        #
-        # if response_state == 200:
-        #     history += message
-        #     history += [{'role': 'assistant', 'content': response_str}]
-        #
+            history += [{'role': 'assistant', 'content': response_str}]
+        print(response_str)
+        #json_pattern = r'\{(?:[^{}]*|\{(?:[^{}]*|\{(?:[^{}]*|\{[^{}]*\})\})\})\}'
+        #match = re.search(json_pattern, response_str, re.DOTALL)
+        start = response_str.find('{')
+        end = response_str.rfind('}')
+    
+        # 如果找到的索引有效
+        if start != -1 and end != -1 and start < end:
+            response_str=response_str[start:end + 1]
+            print(response_str)
+        #else:
+        #    return None  # 返回 None 表示未找到有效的 JSON
+        #if match:
+        #    response_str = match.group()  # 提取 JSON 字符串
+        #    print(response_str)
         return response_str, response_state, history
 
 
@@ -284,17 +298,17 @@ class QwenVLModel(BaseModel):
         elif image_path is not None: image_url = f'file://{os.path.abspath(image_path)}'
         else: raise NotImplementedError
         return image_url
-
+    
     def format_query(self, image_paths:str, prompt:Union[str, dict], detail="high"):
         if isinstance(image_paths, str): image_paths = [image_paths]
-
+        
         if isinstance(prompt, str):
             message = [{'role': 'user', 'content': [{'text': prompt},]}]
             if len(image_paths) != 0:
                 for img_path in image_paths:
                     image_url = self.encode_image(image_path=img_path)
                     message[0]['content'].append({'image': image_url})
-
+        
         if isinstance(prompt, list):
             message = []
             for role, msg in prompt:
@@ -308,15 +322,15 @@ class QwenVLModel(BaseModel):
                         message.append({'role': role, 'content': [{'text': msg['text']},]})
                     else:
                         message.append({'role': role, 'content': [{'text': msg},]})
-                if role == "assistant":
+                if role == "assistant": 
                     message.append({"role": "user", "content": [{"text": qwenvl_special_str}]})
 
         if isinstance(prompt, dict):
             message = []
             for role in ['system', 'user', 'assistant']:
-                if role in prompt:
+                if role in prompt: 
                     msg = [{'role': role, 'content': []},]
-                    if isinstance(prompt[role], str):
+                    if isinstance(prompt[role], str): 
                         msg['content'].append({'text': prompt[role]})
                     else:
                         msg['content'].append({'text': prompt[role]['text']})
@@ -326,15 +340,14 @@ class QwenVLModel(BaseModel):
                             msg['content'].append({'image': image_url})
                     message.append(msg)
         return message
-
+    
     def chat(self, image_path:str, prompt:Union[str, dict], history:list=[], top_p=0.001, **kwargs: Any):
         message = history + self.format_query(image_path, prompt)
 
         response = self.model(messages=message, top_p=top_p)
-        print("hihi",response)
         response_state = response.status_code
 
-        try:
+        try: 
             response_str = response.output.choices[0].message.content[0]['text']
             if response_state == HTTPStatus.OK:  #如果调用成功
                 history += message

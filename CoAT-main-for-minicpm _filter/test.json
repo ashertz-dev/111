@@ -1,0 +1,36 @@
+[
+    {
+        "intent": "Search for flights from Sydney to Helsinki",
+        "episode_id": "1543031633185437801",
+        "subset": "general",
+        "steps": [
+            {
+                "pred": "{\"action\": {\"name\": \"SWIPE\", \"args\": {\"touch_coordinate\": {\"x\": 507, \"y\": 9}, \"lift_coordinate\": {\"x\": 597, \"y\": 0}}}, \"status\": \"TASK_CONTINUE\"}",
+                "label": {
+                    "action": {
+                        "name": "POINT",
+                        "args": {
+                            "coordinate": {
+                                "x": 733,
+                                "y": 836
+                            }
+                        }
+                    },
+                    "status": "TASK_CONTINUE"
+                }
+            },
+            {
+                "pred": "{\"action\": {\"name\": \"TYPE\", \"args\": {\"text\": \"flights from Sydney to Helsinki\"}}, \"status\": \"TASK_CONTINUE\"}",
+                "label": {
+                    "action": {
+                        "name": "TYPE",
+                        "args": {
+                            "text": "flights from Sydney to Helsinki"
+                        }
+                    },
+                    "status": "TASK_CONTINUE"
+                }
+            }
+        ]
+    }
+]

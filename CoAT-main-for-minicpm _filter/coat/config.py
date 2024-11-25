@@ -2,7 +2,7 @@ from yacs.config import CfgNode as CN
 
 _C = CN()
 _C.DEMO_NAME = ""       # 当前实验的name
-_C.DEMO_MODE = "COA"       # demo模式
+_C.DEMO_MODE = ""       # demo模式
 _C.OUTPUT_DIR = ""      # demo输出的保存路径
 
 

@@ -1,19 +1,19 @@
 DEMO_NAME: "CoATAgent"
 DEMO_MODE: "COA"
-OUTPUT_DIR: "C:\\Users\\Map\\Desktop\\result"
+OUTPUT_DIR: "/home/test/test03/minicpm-a/model_evaluation/aitz/CoAT-main_kun/api"
 
 DATA: 
-  DATA_DIR: "C:\\Users\\Map\\Desktop\\android_in_the_zoo"
+  DATA_DIR: "/home/test/test03/minicpm-a/model_evaluation/aitw/dataset_test_filter_400/"
   SPLIT: "test"
   USE_SCREEN_TAG: False
   USE_SCREEN_TXT: True
   BBOX_FORMAT: "relative_int"
 
 MODEL:
-  NAME: "meta"
-  OPENAI_API_URL: "http://g29:8000/v1"
+  NAME: "minicpm"
+  OPENAI_API_URL: "http://g58:6543/v1"
   OPENAI_API_KEY: "EMPTY"
-  MODEL_NAME: ""
+  MODEL_NAME: "/home/test/test03/models/Llama-3.2-11B-Vision-Instruct"
   GEMINI_API_KEY: ""
   GEMINI_MODEL: gemini-pro-vision
   DASHSCOPE_API_KEY: ""
@@ -72,16 +72,29 @@ PROMPTS:
       SYSTEM:
         SCREEN_TXT: |-
           # Role
-          你是一名熟悉安卓系统触屏GUI操作的智能体，将根据用户的意图，分析当前界面的GUI元素和布局，生成相应的操作。
+          You are an intelligent agent familiar with touchscreen GUI operations on Android systems. Based on the user's intent, you will analyze the current interface's GUI elements and layout and generate the corresponding operation.
           # Task
-          针对用户意图，根据输入的当前屏幕截图、数字标记截图、屏幕元素描述，以及历史操作序列，输出下一步的操作。
+          Based on the user's intent, the current screen screenshot, annotated screenshot, screen element description, and historical operation sequence, output the next step.
           # Rule
-          - 以json格式输出，示例如下：
+          - Output in JSON format, as shown in the example below:
           {"thought": "nulla voluptate", "action": {"name": "Press", "args": {"button": "Back"}}, "status": "TASK_CONTINUE"}
-          - 输出操作必须遵循Schema约束
-          # Schema
+          - The operation output must adhere to the Schema constraints.
+          #Schema
           {action_space}
 
+          ## Output Example 1: 
+          {"action": {"name": "POINT", "args": {"coordinate": {"x": 864, "y": 654}}}}
+          
+          ## Output Example 2: 
+          {"action": {"name": PRESS", "args": {"button": "HOME"}}}
+
+          ## Output Example 3: 
+          {"action": {"name": "TYPE", "args": {"text": "What's the news in Barbados?"}}}
+
+          ## Output Example 4: 
+          {"action": {"name": "SWIPE", "args": {"touch_coordinate": {"x": 752,"y": 855},"lift_coordinate": {"x": 696,"y": 80}}}}
+          
+          Please note that you only need to output the next action you are going to take and its related parameters in JSON format.
         SCREEN_TAG: |-
           You are a smart and helpful visual assistant that is well trained to manipulate mobile phones.
           Your task is to navigate on the current screen to complete the user request.
@@ -117,7 +130,7 @@ PROMPTS:
             "ACTION": "press_home", 
             "ARGS": {}
           }
-
+          
       USER: |-
         <CURRENT SCREENSHOT>: {screenshot}
         <HISTORY ACTIONS>: {history_actions}
@@ -332,9 +345,108 @@ PROMPTS:
           "ACTION": 
     
     ACTION_SPACE:
-
       SCREEN_TXT: |-
-        {"type": "object", "properties": {"thought": {"type": "string"}, "action": {"oneOf": [{"type": "null", "description": "不执行操作"}, {"type": "object", "oneOf": [{"$ref": "#/$defs/POINT"}, {"$ref": "#/$defs/PRESS"}, {"$ref": "#/$defs/TYPE"}, {"$ref": "#/$defs/SWIPE"}, {"$ref": "#/$defs/DUAL_POINT"}, {"$ref": "#/$defs/DEEP_LINK"}], "required": ["name", "args"]}]}, "status": {"type": "string", "description": "TASK_START，操作开始；TASK_CONTINUE，需继续操作；TASK_FINISH，操作结束；TASK_SATISFIED，无需操作；TASK_IMPOSSIBLE，任务无法完成；TASK_INTERRUPT，任务中断；TASK_NEED_FEEDBACK，需要用户反馈；", "enum": ["TASK_CONTINUE", "TASK_FINISH", "TASK_SATISFIED", "TASK_IMPOSSIBLE", "TASK_START", "TASK_INTERRUPT", "TASK_NEED_FEEDBACK"]}}, "required": ["action", "status"], "$defs": {"Coordinate": {"type": "object", "description": "坐标为相对于屏幕左上角位原点的相对位置，并且按照宽高比例缩放到0～1000，横坐标为x，纵坐标为y", "properties": {"x": {"type": "integer", "minimum": 0, "maximum": 1000}, "y": {"type": "integer", "minimum": 0, "maximum": 1000}}, "required": ["x", "y"]}, "POINT": {"description": "点击屏幕上的参数指定位置", "properties": {"name": {"const": "POINT"}, "args": {"type": "object", "properties": {"coordinate": {"$ref": "#/$defs/Coordinate"}}, "additionalProperties": false}}}, "PRESS": {"description": "触发特殊按键", "properties": {"name": {"const": "PRESS"}, "args": {"type": "object", "description": "HOME为回到主页按钮，BACK为返回按钮，ENTER为回撤按钮，APPSELECT为查看已打开APP列表按钮", "properties": {"button": {"type": "string", "enum": ["HOME", "BACK", "ENTER", "APPSELECT"]}}, "required": ["button"], "additionalProperties": false}}}, "TYPE": {"description": "输入一段文本", "properties": {"name": {"const": "TYPE"}, "args": {"type": "object", "properties": {"text": {"type": "string"}}, "required": ["text"], "additionalProperties": false}}}, "SWIPE": {"description": "滑动屏幕", "properties": {"name": {"const": "SWIPE"}, "args": {"type": "object", "properties": {"touch_coordinate": {"$ref": "#/$defs/Coordinate"}, "lift_coordinate": {"$ref": "#/$defs/Coordinate"}}, "required": ["touch_coordinate", "lift_coordinate"], "additionalProperties": false}}}, "DUAL_POINT": {"description": "触摸屏幕的两个点", "properties": {"name": {"const": "DUAL_POINT"}, "args": {"type": "object", "properties": {"coordinate_1": {"$ref": "#/$defs/Coordinate"}, "coordinate_2": {"$ref": "#/$defs/Coordinate"}}, "required": ["coordinate_1", "coordinate_2"], "additionalProperties": false}}}, "DEEP_LINK": {"description": "调用最近的应用", "properties": {"name": {"const": "DEEP_LINK"}, "args": {}}}}}
+        {
+          "type": "object",
+          "properties": {
+            "thought": {"type": "string"},
+            "action": {
+              "oneOf": [
+                {"type": "null", "description": "No operation"},
+                {
+                  "type": "object",
+                  "oneOf": [
+                    {"$ref": "#/$defs/POINT"},
+                    {"$ref": "#/$defs/PRESS"},
+                    {"$ref": "#/$defs/TYPE"},
+                    {"$ref": "#/$defs/SWIPE"},
+                    {"$ref": "#/$defs/DUAL_POINT"},
+                    {"$ref": "#/$defs/DEEP_LINK"}
+                  ],
+                  "required": ["name", "args"]
+                }
+              ]
+            },
+            "status": {
+              "type": "string",
+              "description": "TASK_START: operation starts; TASK_CONTINUE: further operation required; TASK_FINISH: operation ends; TASK_SATISFIED: no operation needed; TASK_IMPOSSIBLE: task cannot be completed; TASK_INTERRUPT: task interrupted; TASK_NEED_FEEDBACK: user feedback needed",
+              "enum": ["TASK_CONTINUE", "TASK_FINISH", "TASK_SATISFIED", "TASK_IMPOSSIBLE", "TASK_START", "TASK_INTERRUPT", "TASK_NEED_FEEDBACK"]
+            }
+          },
+          "required": ["action", "status"],
+          "$defs": {
+            "Coordinate": {
+              "type": "object",
+              "description": "Coordinates relative to the top-left corner of the screen, scaled to 0–1000. X is the horizontal axis; Y is the vertical axis.",
+              "properties": {
+                "x": {"type": "integer", "minimum": 0, "maximum": 1000},
+                "y": {"type": "integer", "minimum": 0, "maximum": 1000}
+              },
+              "required": ["x", "y"]
+            },
+            "POINT": {
+              "description": "Tap the specified location on the screen",
+              "properties": {
+                "name": {"const": "POINT"},
+                "args": {"type": "object", "properties": {"coordinate": {"$ref": "#/$defs/Coordinate"}}, "additionalProperties": false}
+              }
+            },
+            "PRESS": {
+              "description": "Trigger a special key",
+              "properties": {
+                "name": {"const": "PRESS"},
+                "args": {
+                  "type": "object",
+                  "description": "HOME: return to the home screen; BACK: go back; ENTER: enter key; APPSELECT: open app switcher",
+                  "properties": {"button": {"type": "string", "enum": ["HOME", "BACK", "ENTER", "APPSELECT"]}},
+                  "required": ["button"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "TYPE": {
+              "description": "Input a string of text",
+              "properties": {
+                "name": {"const": "TYPE"},
+                "args": {"type": "object", "properties": {"text": {"type": "string"}}, "required": ["text"], "additionalProperties": false}
+              }
+            },
+            "SWIPE": {
+              "description": "Swipe on the screen",
+              "properties": {
+                "name": {"const": "SWIPE"},
+                "args": {
+                  "type": "object",
+                  "properties": {
+                    "touch_coordinate": {"$ref": "#/$defs/Coordinate"},
+                    "lift_coordinate": {"$ref": "#/$defs/Coordinate"}
+                  },
+                  "required": ["touch_coordinate", "lift_coordinate"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "DUAL_POINT": {
+              "description": "Touch two points on the screen",
+              "properties": {
+                "name": {"const": "DUAL_POINT"},
+                "args": {
+                  "type": "object",
+                  "properties": {
+                    "coordinate_1": {"$ref": "#/$defs/Coordinate"},
+                    "coordinate_2": {"$ref": "#/$defs/Coordinate"}
+                  },
+                  "required": ["coordinate_1", "coordinate_2"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "DEEP_LINK": {
+              "description": "Invoke a recently used app",
+              "properties": {"name": {"const": "DEEP_LINK"}, "args": {}}
+            }
+          }
+        }
       SCREEN_TAG: |-
         CLICK_ELEMENT:
           summary: click on the visible ui element on the screen

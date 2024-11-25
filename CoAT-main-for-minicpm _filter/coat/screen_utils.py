@@ -4,7 +4,7 @@ from functools import cmp_to_key
 import numpy as np
 
 # FONT_PATH = "/System/Library/Fonts/Helvetica.ttc"
-FONT_PATH = "C:/Windows/Fonts/arial.ttf"
+FONT_PATH = "/usr/share/fonts/dejavu/DejaVuSans.ttf"
 
 
 # ========================================================================================
